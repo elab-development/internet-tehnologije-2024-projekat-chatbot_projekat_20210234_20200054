@@ -1,0 +1,501 @@
+species,breed,averageLifespan,habitatType,dietType,description
+Amphibian,Golden Retriever,37,Tropical,Piscivore,The African Grey Parrot is a reptile known for its unique characteristics and adaptation to rainforest environments.
+Canine,Siamese Cat,91,Rainforest,Frugivore,The Golden Retriever is a insect known for its unique characteristics and adaptation to domestic environments.
+Canine,Monarch Butterfly,37,Tropical,Omnivore,The Corn Snake is a feline known for its unique characteristics and adaptation to desert environments.
+Amphibian,Clownfish,90,Freshwater,Herbivore,The African Grey Parrot is a feline known for its unique characteristics and adaptation to desert environments.
+Avian,Golden Retriever,59,Freshwater,Piscivore,The Leopard Gecko is a avian known for its unique characteristics and adaptation to rainforest environments.
+Feline,Golden Retriever,10,Tropical,Insectivore,The Clownfish is a insect known for its unique characteristics and adaptation to domestic environments.
+Feline,Green Tree Frog,88,Desert,Frugivore,The Clownfish is a feline known for its unique characteristics and adaptation to grassland environments.
+Feline,African Grey Parrot,30,Freshwater,Granivore,The Corn Snake is a avian known for its unique characteristics and adaptation to tropical environments.
+Amphibian,Clownfish,34,Tropical,Herbivore,The Clownfish is a aquatic known for its unique characteristics and adaptation to rainforest environments.
+Canine,African Grey Parrot,81,Freshwater,Granivore,The Siamese Cat is a aquatic known for its unique characteristics and adaptation to grassland environments.
+Amphibian,Bald Eagle,76,Rainforest,Carnivore,The African Grey Parrot is a aquatic known for its unique characteristics and adaptation to rainforest environments.
+Amphibian,Corn Snake,85,Domestic,Frugivore,The African Grey Parrot is a feline known for its unique characteristics and adaptation to grassland environments.
+Aquatic,Monarch Butterfly,26,Desert,Frugivore,The Betta Fish is a amphibian known for its unique characteristics and adaptation to rainforest environments.
+Canine,Corn Snake,55,Freshwater,Granivore,The Green Tree Frog is a insect known for its unique characteristics and adaptation to rainforest environments.
+Aquatic,Golden Retriever,15,Tropical,Frugivore,The Golden Retriever is a insect known for its unique characteristics and adaptation to freshwater environments.
+Reptile,Siamese Cat,70,Tropical,Frugivore,The Golden Retriever is a canine known for its unique characteristics and adaptation to domestic environments.
+Canine,Siamese Cat,29,Rainforest,Piscivore,The Betta Fish is a avian known for its unique characteristics and adaptation to grassland environments.
+Canine,African Grey Parrot,83,Desert,Omnivore,The Leopard Gecko is a insect known for its unique characteristics and adaptation to rainforest environments.
+Canine,Corn Snake,20,Freshwater,Frugivore,The Monarch Butterfly is a aquatic known for its unique characteristics and adaptation to grassland environments.
+Feline,Golden Retriever,35,Tropical,Frugivore,The Golden Retriever is a reptile known for its unique characteristics and adaptation to grassland environments.
+Feline,Green Tree Frog,19,Domestic,Insectivore,The Corn Snake is a avian known for its unique characteristics and adaptation to grassland environments.
+Aquatic,Betta Fish,10,Grassland,Piscivore,The Clownfish is a reptile known for its unique characteristics and adaptation to tropical environments.
+Aquatic,Corn Snake,8,Freshwater,Herbivore,The Monarch Butterfly is a avian known for its unique characteristics and adaptation to marine environments.
+Canine,African Grey Parrot,22,Domestic,Omnivore,The Siamese Cat is a amphibian known for its unique characteristics and adaptation to domestic environments.
+Aquatic,Monarch Butterfly,40,Tropical,Herbivore,The African Grey Parrot is a reptile known for its unique characteristics and adaptation to marine environments.
+Feline,African Grey Parrot,77,Domestic,Herbivore,The Bald Eagle is a reptile known for its unique characteristics and adaptation to tropical environments.
+Amphibian,Golden Retriever,96,Desert,Carnivore,The Green Tree Frog is a aquatic known for its unique characteristics and adaptation to tropical environments.
+Amphibian,Clownfish,73,Freshwater,Carnivore,The Green Tree Frog is a insect known for its unique characteristics and adaptation to grassland environments.
+Amphibian,Green Tree Frog,37,Freshwater,Herbivore,The Green Tree Frog is a amphibian known for its unique characteristics and adaptation to freshwater environments.
+Aquatic,Golden Retriever,57,Tropical,Granivore,The Green Tree Frog is a reptile known for its unique characteristics and adaptation to tropical environments.
+Reptile,Green Tree Frog,16,Rainforest,Insectivore,The Green Tree Frog is a aquatic known for its unique characteristics and adaptation to rainforest environments.
+Feline,Leopard Gecko,60,Desert,Carnivore,The Siamese Cat is a avian known for its unique characteristics and adaptation to tropical environments.
+Reptile,Leopard Gecko,89,Domestic,Carnivore,The Bald Eagle is a canine known for its unique characteristics and adaptation to desert environments.
+Aquatic,Siamese Cat,39,Tropical,Carnivore,The Bald Eagle is a feline known for its unique characteristics and adaptation to tropical environments.
+Avian,Green Tree Frog,90,Desert,Carnivore,The Siamese Cat is a canine known for its unique characteristics and adaptation to desert environments.
+Insect,Corn Snake,52,Domestic,Omnivore,The Monarch Butterfly is a insect known for its unique characteristics and adaptation to rainforest environments.
+Insect,Monarch Butterfly,35,Tropical,Herbivore,The Monarch Butterfly is a feline known for its unique characteristics and adaptation to freshwater environments.
+Canine,Betta Fish,65,Grassland,Granivore,The African Grey Parrot is a insect known for its unique characteristics and adaptation to desert environments.
+Insect,African Grey Parrot,70,Marine,Granivore,The Betta Fish is a amphibian known for its unique characteristics and adaptation to desert environments.
+Insect,Leopard Gecko,64,Rainforest,Omnivore,The Leopard Gecko is a insect known for its unique characteristics and adaptation to tropical environments.
+Feline,African Grey Parrot,57,Domestic,Piscivore,The Bald Eagle is a aquatic known for its unique characteristics and adaptation to marine environments.
+Amphibian,African Grey Parrot,11,Grassland,Granivore,The Bald Eagle is a avian known for its unique characteristics and adaptation to marine environments.
+Reptile,Monarch Butterfly,77,Domestic,Piscivore,The Golden Retriever is a canine known for its unique characteristics and adaptation to marine environments.
+Avian,Golden Retriever,6,Marine,Granivore,The Corn Snake is a reptile known for its unique characteristics and adaptation to tropical environments.
+Avian,African Grey Parrot,56,Marine,Frugivore,The Leopard Gecko is a aquatic known for its unique characteristics and adaptation to desert environments.
+Feline,Green Tree Frog,95,Freshwater,Piscivore,The Golden Retriever is a canine known for its unique characteristics and adaptation to desert environments.
+Feline,Monarch Butterfly,42,Desert,Omnivore,The Bald Eagle is a aquatic known for its unique characteristics and adaptation to freshwater environments.
+Insect,Leopard Gecko,78,Rainforest,Frugivore,The Bald Eagle is a avian known for its unique characteristics and adaptation to rainforest environments.
+Avian,Clownfish,33,Rainforest,Herbivore,The Golden Retriever is a insect known for its unique characteristics and adaptation to domestic environments.
+Canine,African Grey Parrot,4,Domestic,Granivore,The Monarch Butterfly is a feline known for its unique characteristics and adaptation to desert environments.
+Canine,Siamese Cat,12,Marine,Piscivore,The Green Tree Frog is a insect known for its unique characteristics and adaptation to marine environments.
+Reptile,Monarch Butterfly,30,Rainforest,Carnivore,The Green Tree Frog is a canine known for its unique characteristics and adaptation to marine environments.
+Canine,Golden Retriever,87,Tropical,Piscivore,The Golden Retriever is a aquatic known for its unique characteristics and adaptation to rainforest environments.
+Avian,Bald Eagle,74,Rainforest,Insectivore,The Leopard Gecko is a avian known for its unique characteristics and adaptation to rainforest environments.
+Insect,Leopard Gecko,76,Domestic,Carnivore,The Clownfish is a canine known for its unique characteristics and adaptation to marine environments.
+Avian,Leopard Gecko,3,Grassland,Carnivore,The Corn Snake is a reptile known for its unique characteristics and adaptation to freshwater environments.
+Aquatic,Bald Eagle,98,Freshwater,Carnivore,The Corn Snake is a avian known for its unique characteristics and adaptation to freshwater environments.
+Avian,Green Tree Frog,87,Freshwater,Granivore,The Betta Fish is a amphibian known for its unique characteristics and adaptation to rainforest environments.
+Insect,Clownfish,35,Grassland,Frugivore,The Siamese Cat is a feline known for its unique characteristics and adaptation to domestic environments.
+Canine,Leopard Gecko,74,Rainforest,Granivore,The Monarch Butterfly is a avian known for its unique characteristics and adaptation to freshwater environments.
+Amphibian,Leopard Gecko,6,Desert,Piscivore,The Green Tree Frog is a aquatic known for its unique characteristics and adaptation to desert environments.
+Reptile,Golden Retriever,98,Marine,Granivore,The African Grey Parrot is a feline known for its unique characteristics and adaptation to rainforest environments.
+Aquatic,Leopard Gecko,97,Grassland,Carnivore,The Corn Snake is a reptile known for its unique characteristics and adaptation to rainforest environments.
+Canine,Monarch Butterfly,23,Domestic,Frugivore,The Golden Retriever is a canine known for its unique characteristics and adaptation to domestic environments.
+Reptile,Green Tree Frog,61,Domestic,Insectivore,The African Grey Parrot is a amphibian known for its unique characteristics and adaptation to desert environments.
+Canine,Clownfish,67,Marine,Omnivore,The Bald Eagle is a aquatic known for its unique characteristics and adaptation to marine environments.
+Aquatic,Siamese Cat,84,Freshwater,Insectivore,The African Grey Parrot is a aquatic known for its unique characteristics and adaptation to rainforest environments.
+Avian,Clownfish,57,Marine,Herbivore,The African Grey Parrot is a avian known for its unique characteristics and adaptation to rainforest environments.
+Insect,Green Tree Frog,36,Marine,Frugivore,The Green Tree Frog is a feline known for its unique characteristics and adaptation to marine environments.
+Amphibian,Corn Snake,24,Grassland,Frugivore,The Betta Fish is a amphibian known for its unique characteristics and adaptation to freshwater environments.
+Aquatic,Monarch Butterfly,75,Domestic,Carnivore,The Clownfish is a aquatic known for its unique characteristics and adaptation to desert environments.
+Insect,Corn Snake,56,Marine,Insectivore,The Corn Snake is a insect known for its unique characteristics and adaptation to rainforest environments.
+Avian,Green Tree Frog,82,Grassland,Piscivore,The Corn Snake is a reptile known for its unique characteristics and adaptation to grassland environments.
+Aquatic,Golden Retriever,63,Marine,Herbivore,The Betta Fish is a avian known for its unique characteristics and adaptation to marine environments.
+Feline,Siamese Cat,12,Domestic,Granivore,The Golden Retriever is a avian known for its unique characteristics and adaptation to desert environments.
+Amphibian,Clownfish,61,Domestic,Frugivore,The Siamese Cat is a reptile known for its unique characteristics and adaptation to rainforest environments.
+Canine,African Grey Parrot,45,Desert,Granivore,The Clownfish is a insect known for its unique characteristics and adaptation to grassland environments.
+Canine,Betta Fish,53,Rainforest,Insectivore,The Golden Retriever is a aquatic known for its unique characteristics and adaptation to marine environments.
+Amphibian,Clownfish,43,Tropical,Carnivore,The Clownfish is a amphibian known for its unique characteristics and adaptation to freshwater environments.
+Feline,Golden Retriever,42,Domestic,Piscivore,The Betta Fish is a aquatic known for its unique characteristics and adaptation to tropical environments.
+Insect,Siamese Cat,86,Tropical,Carnivore,The Golden Retriever is a aquatic known for its unique characteristics and adaptation to marine environments.
+Avian,Betta Fish,14,Desert,Herbivore,The African Grey Parrot is a aquatic known for its unique characteristics and adaptation to grassland environments.
+Canine,Monarch Butterfly,21,Rainforest,Granivore,The Betta Fish is a insect known for its unique characteristics and adaptation to freshwater environments.
+Insect,Green Tree Frog,43,Grassland,Granivore,The Monarch Butterfly is a feline known for its unique characteristics and adaptation to freshwater environments.
+Feline,Green Tree Frog,53,Rainforest,Insectivore,The Leopard Gecko is a canine known for its unique characteristics and adaptation to rainforest environments.
+Insect,Monarch Butterfly,89,Rainforest,Granivore,The Siamese Cat is a feline known for its unique characteristics and adaptation to domestic environments.
+Canine,Betta Fish,64,Grassland,Carnivore,The Bald Eagle is a avian known for its unique characteristics and adaptation to marine environments.
+Reptile,Corn Snake,37,Desert,Herbivore,The African Grey Parrot is a reptile known for its unique characteristics and adaptation to grassland environments.
+Avian,Siamese Cat,85,Marine,Frugivore,The Leopard Gecko is a reptile known for its unique characteristics and adaptation to rainforest environments.
+Reptile,Monarch Butterfly,52,Rainforest,Piscivore,The Betta Fish is a reptile known for its unique characteristics and adaptation to freshwater environments.
+Amphibian,Betta Fish,98,Rainforest,Insectivore,The Golden Retriever is a amphibian known for its unique characteristics and adaptation to tropical environments.
+Insect,Leopard Gecko,71,Desert,Insectivore,The Corn Snake is a feline known for its unique characteristics and adaptation to rainforest environments.
+Avian,Clownfish,5,Marine,Granivore,The Green Tree Frog is a amphibian known for its unique characteristics and adaptation to marine environments.
+Feline,Golden Retriever,59,Rainforest,Herbivore,The Corn Snake is a reptile known for its unique characteristics and adaptation to desert environments.
+Avian,Monarch Butterfly,12,Rainforest,Granivore,The African Grey Parrot is a reptile known for its unique characteristics and adaptation to rainforest environments.
+Avian,Golden Retriever,41,Marine,Insectivore,The Green Tree Frog is a aquatic known for its unique characteristics and adaptation to desert environments.
+Feline,Corn Snake,33,Domestic,Piscivore,The Clownfish is a aquatic known for its unique characteristics and adaptation to marine environments.
+Amphibian,Corn Snake,42,Freshwater,Piscivore,The Leopard Gecko is a feline known for its unique characteristics and adaptation to desert environments.
+Avian,Leopard Gecko,15,Grassland,Insectivore,The Corn Snake is a avian known for its unique characteristics and adaptation to tropical environments.
+Amphibian,Green Tree Frog,99,Domestic,Carnivore,The Clownfish is a insect known for its unique characteristics and adaptation to desert environments.
+Amphibian,Monarch Butterfly,52,Freshwater,Granivore,The Leopard Gecko is a amphibian known for its unique characteristics and adaptation to grassland environments.
+Amphibian,Siamese Cat,66,Grassland,Carnivore,The Bald Eagle is a avian known for its unique characteristics and adaptation to marine environments.
+Canine,Green Tree Frog,1,Grassland,Granivore,The Green Tree Frog is a aquatic known for its unique characteristics and adaptation to freshwater environments.
+Aquatic,Betta Fish,85,Freshwater,Piscivore,The Clownfish is a avian known for its unique characteristics and adaptation to domestic environments.
+Amphibian,Green Tree Frog,70,Rainforest,Carnivore,The Betta Fish is a amphibian known for its unique characteristics and adaptation to rainforest environments.
+Feline,Siamese Cat,60,Grassland,Granivore,The Monarch Butterfly is a reptile known for its unique characteristics and adaptation to freshwater environments.
+Aquatic,Clownfish,53,Freshwater,Herbivore,The Green Tree Frog is a insect known for its unique characteristics and adaptation to freshwater environments.
+Amphibian,Corn Snake,7,Tropical,Omnivore,The African Grey Parrot is a avian known for its unique characteristics and adaptation to domestic environments.
+Feline,Clownfish,25,Marine,Frugivore,The Clownfish is a amphibian known for its unique characteristics and adaptation to domestic environments.
+Feline,Monarch Butterfly,67,Marine,Insectivore,The Green Tree Frog is a reptile known for its unique characteristics and adaptation to grassland environments.
+Reptile,Green Tree Frog,47,Tropical,Granivore,The Clownfish is a amphibian known for its unique characteristics and adaptation to marine environments.
+Reptile,Monarch Butterfly,80,Marine,Herbivore,The Leopard Gecko is a feline known for its unique characteristics and adaptation to freshwater environments.
+Avian,Clownfish,97,Desert,Piscivore,The Corn Snake is a avian known for its unique characteristics and adaptation to rainforest environments.
+Amphibian,Corn Snake,64,Freshwater,Omnivore,The Clownfish is a feline known for its unique characteristics and adaptation to domestic environments.
+Amphibian,African Grey Parrot,81,Marine,Frugivore,The Betta Fish is a amphibian known for its unique characteristics and adaptation to rainforest environments.
+Aquatic,Leopard Gecko,57,Marine,Granivore,The Leopard Gecko is a feline known for its unique characteristics and adaptation to domestic environments.
+Feline,Monarch Butterfly,98,Marine,Piscivore,The Corn Snake is a feline known for its unique characteristics and adaptation to grassland environments.
+Amphibian,Monarch Butterfly,7,Grassland,Granivore,The Leopard Gecko is a canine known for its unique characteristics and adaptation to domestic environments.
+Avian,African Grey Parrot,27,Domestic,Omnivore,The Monarch Butterfly is a avian known for its unique characteristics and adaptation to grassland environments.
+Insect,Betta Fish,35,Desert,Herbivore,The Bald Eagle is a canine known for its unique characteristics and adaptation to grassland environments.
+Insect,Betta Fish,71,Marine,Omnivore,The African Grey Parrot is a canine known for its unique characteristics and adaptation to rainforest environments.
+Insect,Clownfish,17,Desert,Granivore,The African Grey Parrot is a reptile known for its unique characteristics and adaptation to grassland environments.
+Canine,Monarch Butterfly,37,Grassland,Carnivore,The Bald Eagle is a reptile known for its unique characteristics and adaptation to grassland environments.
+Feline,Corn Snake,57,Desert,Herbivore,The Leopard Gecko is a insect known for its unique characteristics and adaptation to desert environments.
+Insect,Golden Retriever,90,Desert,Insectivore,The Green Tree Frog is a avian known for its unique characteristics and adaptation to grassland environments.
+Canine,Clownfish,63,Tropical,Piscivore,The Golden Retriever is a insect known for its unique characteristics and adaptation to domestic environments.
+Insect,Clownfish,16,Grassland,Carnivore,The Betta Fish is a feline known for its unique characteristics and adaptation to rainforest environments.
+Avian,Leopard Gecko,4,Marine,Granivore,The Golden Retriever is a feline known for its unique characteristics and adaptation to marine environments.
+Reptile,Monarch Butterfly,81,Domestic,Insectivore,The African Grey Parrot is a canine known for its unique characteristics and adaptation to freshwater environments.
+Avian,Betta Fish,78,Domestic,Omnivore,The Monarch Butterfly is a insect known for its unique characteristics and adaptation to marine environments.
+Canine,Betta Fish,31,Freshwater,Carnivore,The African Grey Parrot is a amphibian known for its unique characteristics and adaptation to freshwater environments.
+Feline,Green Tree Frog,91,Domestic,Granivore,The Clownfish is a canine known for its unique characteristics and adaptation to domestic environments.
+Aquatic,Bald Eagle,21,Domestic,Insectivore,The Clownfish is a aquatic known for its unique characteristics and adaptation to rainforest environments.
+Amphibian,Bald Eagle,40,Marine,Herbivore,The Siamese Cat is a avian known for its unique characteristics and adaptation to desert environments.
+Avian,Bald Eagle,71,Domestic,Omnivore,The Bald Eagle is a amphibian known for its unique characteristics and adaptation to rainforest environments.
+Feline,Leopard Gecko,2,Grassland,Insectivore,The Corn Snake is a reptile known for its unique characteristics and adaptation to tropical environments.
+Amphibian,Corn Snake,71,Grassland,Omnivore,The Corn Snake is a reptile known for its unique characteristics and adaptation to desert environments.
+Reptile,Bald Eagle,53,Desert,Insectivore,The Leopard Gecko is a insect known for its unique characteristics and adaptation to domestic environments.
+Reptile,African Grey Parrot,12,Freshwater,Piscivore,The Green Tree Frog is a feline known for its unique characteristics and adaptation to grassland environments.
+Amphibian,Siamese Cat,29,Tropical,Herbivore,The Bald Eagle is a amphibian known for its unique characteristics and adaptation to desert environments.
+Reptile,Clownfish,15,Rainforest,Carnivore,The African Grey Parrot is a canine known for its unique characteristics and adaptation to grassland environments.
+Feline,Corn Snake,60,Domestic,Insectivore,The Green Tree Frog is a insect known for its unique characteristics and adaptation to desert environments.
+Avian,Betta Fish,16,Rainforest,Omnivore,The Betta Fish is a amphibian known for its unique characteristics and adaptation to freshwater environments.
+Feline,Green Tree Frog,83,Rainforest,Herbivore,The Leopard Gecko is a feline known for its unique characteristics and adaptation to rainforest environments.
+Feline,Siamese Cat,20,Rainforest,Carnivore,The Monarch Butterfly is a insect known for its unique characteristics and adaptation to marine environments.
+Amphibian,Leopard Gecko,64,Desert,Omnivore,The Corn Snake is a avian known for its unique characteristics and adaptation to domestic environments.
+Aquatic,Clownfish,92,Grassland,Herbivore,The Monarch Butterfly is a amphibian known for its unique characteristics and adaptation to domestic environments.
+Aquatic,Leopard Gecko,38,Domestic,Omnivore,The African Grey Parrot is a feline known for its unique characteristics and adaptation to marine environments.
+Avian,Leopard Gecko,66,Marine,Granivore,The Green Tree Frog is a feline known for its unique characteristics and adaptation to domestic environments.
+Amphibian,African Grey Parrot,91,Desert,Frugivore,The Clownfish is a reptile known for its unique characteristics and adaptation to tropical environments.
+Aquatic,Golden Retriever,35,Freshwater,Frugivore,The Bald Eagle is a insect known for its unique characteristics and adaptation to desert environments.
+Reptile,Golden Retriever,54,Grassland,Herbivore,The Green Tree Frog is a avian known for its unique characteristics and adaptation to rainforest environments.
+Aquatic,Leopard Gecko,62,Freshwater,Granivore,The Betta Fish is a canine known for its unique characteristics and adaptation to desert environments.
+Reptile,Bald Eagle,61,Marine,Carnivore,The Green Tree Frog is a amphibian known for its unique characteristics and adaptation to tropical environments.
+Avian,Betta Fish,32,Freshwater,Carnivore,The Golden Retriever is a amphibian known for its unique characteristics and adaptation to domestic environments.
+Feline,Siamese Cat,59,Grassland,Omnivore,The Bald Eagle is a avian known for its unique characteristics and adaptation to tropical environments.
+Feline,Bald Eagle,71,Domestic,Herbivore,The Monarch Butterfly is a amphibian known for its unique characteristics and adaptation to rainforest environments.
+Aquatic,Monarch Butterfly,19,Desert,Granivore,The Clownfish is a amphibian known for its unique characteristics and adaptation to domestic environments.
+Reptile,Betta Fish,50,Rainforest,Insectivore,The Clownfish is a avian known for its unique characteristics and adaptation to rainforest environments.
+Canine,Leopard Gecko,25,Desert,Frugivore,The Leopard Gecko is a feline known for its unique characteristics and adaptation to tropical environments.
+Insect,Monarch Butterfly,77,Desert,Granivore,The Bald Eagle is a feline known for its unique characteristics and adaptation to marine environments.
+Canine,Bald Eagle,66,Domestic,Carnivore,The Betta Fish is a avian known for its unique characteristics and adaptation to marine environments.
+Insect,Monarch Butterfly,96,Rainforest,Granivore,The Corn Snake is a reptile known for its unique characteristics and adaptation to freshwater environments.
+Canine,Leopard Gecko,18,Rainforest,Frugivore,The Corn Snake is a insect known for its unique characteristics and adaptation to grassland environments.
+Feline,African Grey Parrot,9,Tropical,Insectivore,The Leopard Gecko is a insect known for its unique characteristics and adaptation to tropical environments.
+Amphibian,Golden Retriever,36,Tropical,Insectivore,The Betta Fish is a insect known for its unique characteristics and adaptation to freshwater environments.
+Feline,Siamese Cat,99,Grassland,Piscivore,The Siamese Cat is a aquatic known for its unique characteristics and adaptation to marine environments.
+Insect,Monarch Butterfly,54,Marine,Omnivore,The Corn Snake is a amphibian known for its unique characteristics and adaptation to desert environments.
+Amphibian,Leopard Gecko,44,Tropical,Omnivore,The Siamese Cat is a aquatic known for its unique characteristics and adaptation to domestic environments.
+Reptile,African Grey Parrot,65,Freshwater,Omnivore,The Golden Retriever is a insect known for its unique characteristics and adaptation to rainforest environments.
+Aquatic,Corn Snake,35,Domestic,Herbivore,The Corn Snake is a feline known for its unique characteristics and adaptation to rainforest environments.
+Canine,Bald Eagle,1,Desert,Carnivore,The Corn Snake is a feline known for its unique characteristics and adaptation to tropical environments.
+Reptile,Golden Retriever,37,Freshwater,Granivore,The Green Tree Frog is a insect known for its unique characteristics and adaptation to rainforest environments.
+Reptile,Corn Snake,93,Rainforest,Carnivore,The Bald Eagle is a canine known for its unique characteristics and adaptation to grassland environments.
+Aquatic,Leopard Gecko,39,Desert,Piscivore,The Leopard Gecko is a amphibian known for its unique characteristics and adaptation to rainforest environments.
+Reptile,Siamese Cat,76,Domestic,Frugivore,The Bald Eagle is a canine known for its unique characteristics and adaptation to rainforest environments.
+Aquatic,Bald Eagle,75,Freshwater,Piscivore,The Bald Eagle is a insect known for its unique characteristics and adaptation to domestic environments.
+Avian,African Grey Parrot,85,Desert,Piscivore,The Bald Eagle is a feline known for its unique characteristics and adaptation to rainforest environments.
+Aquatic,Bald Eagle,63,Rainforest,Insectivore,The Monarch Butterfly is a reptile known for its unique characteristics and adaptation to rainforest environments.
+Insect,Corn Snake,20,Tropical,Omnivore,The Golden Retriever is a aquatic known for its unique characteristics and adaptation to marine environments.
+Canine,Corn Snake,58,Freshwater,Granivore,The Clownfish is a amphibian known for its unique characteristics and adaptation to domestic environments.
+Amphibian,Betta Fish,69,Marine,Herbivore,The Monarch Butterfly is a avian known for its unique characteristics and adaptation to freshwater environments.
+Amphibian,Green Tree Frog,62,Freshwater,Carnivore,The Golden Retriever is a amphibian known for its unique characteristics and adaptation to tropical environments.
+Canine,Bald Eagle,45,Rainforest,Herbivore,The Betta Fish is a canine known for its unique characteristics and adaptation to domestic environments.
+Amphibian,Betta Fish,43,Freshwater,Omnivore,The Monarch Butterfly is a avian known for its unique characteristics and adaptation to grassland environments.
+Aquatic,Corn Snake,71,Freshwater,Omnivore,The Siamese Cat is a aquatic known for its unique characteristics and adaptation to domestic environments.
+Insect,Monarch Butterfly,98,Rainforest,Carnivore,The Siamese Cat is a reptile known for its unique characteristics and adaptation to domestic environments.
+Avian,Corn Snake,70,Rainforest,Insectivore,The Clownfish is a reptile known for its unique characteristics and adaptation to tropical environments.
+Insect,Bald Eagle,49,Grassland,Frugivore,The African Grey Parrot is a insect known for its unique characteristics and adaptation to grassland environments.
+Amphibian,African Grey Parrot,59,Grassland,Granivore,The Monarch Butterfly is a avian known for its unique characteristics and adaptation to marine environments.
+Avian,Bald Eagle,42,Rainforest,Piscivore,The Bald Eagle is a insect known for its unique characteristics and adaptation to marine environments.
+Canine,Bald Eagle,25,Domestic,Insectivore,The Monarch Butterfly is a canine known for its unique characteristics and adaptation to grassland environments.
+Avian,Clownfish,90,Rainforest,Omnivore,The Corn Snake is a feline known for its unique characteristics and adaptation to grassland environments.
+Reptile,Leopard Gecko,31,Grassland,Omnivore,The Green Tree Frog is a canine known for its unique characteristics and adaptation to tropical environments.
+Feline,Clownfish,74,Freshwater,Granivore,The Corn Snake is a reptile known for its unique characteristics and adaptation to rainforest environments.
+Reptile,Corn Snake,50,Grassland,Insectivore,The African Grey Parrot is a amphibian known for its unique characteristics and adaptation to tropical environments.
+Canine,Bald Eagle,30,Desert,Piscivore,The Golden Retriever is a insect known for its unique characteristics and adaptation to domestic environments.
+Amphibian,Leopard Gecko,100,Domestic,Piscivore,The Clownfish is a reptile known for its unique characteristics and adaptation to grassland environments.
+Amphibian,Clownfish,53,Tropical,Omnivore,The Corn Snake is a reptile known for its unique characteristics and adaptation to rainforest environments.
+Avian,Bald Eagle,6,Desert,Frugivore,The Monarch Butterfly is a insect known for its unique characteristics and adaptation to tropical environments.
+Aquatic,Siamese Cat,41,Grassland,Piscivore,The Leopard Gecko is a reptile known for its unique characteristics and adaptation to desert environments.
+Insect,Clownfish,96,Freshwater,Piscivore,The African Grey Parrot is a avian known for its unique characteristics and adaptation to tropical environments.
+Feline,Leopard Gecko,61,Desert,Carnivore,The Siamese Cat is a canine known for its unique characteristics and adaptation to freshwater environments.
+Aquatic,Clownfish,91,Desert,Frugivore,The Monarch Butterfly is a aquatic known for its unique characteristics and adaptation to freshwater environments.
+Canine,Green Tree Frog,49,Desert,Carnivore,The Golden Retriever is a feline known for its unique characteristics and adaptation to tropical environments.
+Insect,Green Tree Frog,50,Domestic,Herbivore,The Siamese Cat is a canine known for its unique characteristics and adaptation to rainforest environments.
+Amphibian,Corn Snake,85,Tropical,Insectivore,The Golden Retriever is a reptile known for its unique characteristics and adaptation to rainforest environments.
+Avian,Siamese Cat,84,Freshwater,Omnivore,The Golden Retriever is a feline known for its unique characteristics and adaptation to grassland environments.
+Insect,African Grey Parrot,20,Tropical,Piscivore,The Golden Retriever is a reptile known for its unique characteristics and adaptation to marine environments.
+Amphibian,African Grey Parrot,64,Rainforest,Herbivore,The Leopard Gecko is a aquatic known for its unique characteristics and adaptation to tropical environments.
+Aquatic,Leopard Gecko,5,Grassland,Carnivore,The Golden Retriever is a feline known for its unique characteristics and adaptation to rainforest environments.
+Aquatic,Monarch Butterfly,17,Marine,Piscivore,The Clownfish is a feline known for its unique characteristics and adaptation to freshwater environments.
+Feline,African Grey Parrot,65,Domestic,Insectivore,The Betta Fish is a avian known for its unique characteristics and adaptation to rainforest environments.
+Feline,Leopard Gecko,76,Tropical,Carnivore,The Betta Fish is a insect known for its unique characteristics and adaptation to grassland environments.
+Avian,Siamese Cat,43,Grassland,Frugivore,The Green Tree Frog is a feline known for its unique characteristics and adaptation to desert environments.
+Insect,Monarch Butterfly,13,Grassland,Frugivore,The African Grey Parrot is a amphibian known for its unique characteristics and adaptation to rainforest environments.
+Feline,Monarch Butterfly,57,Domestic,Omnivore,The Leopard Gecko is a reptile known for its unique characteristics and adaptation to desert environments.
+Aquatic,Green Tree Frog,13,Domestic,Piscivore,The Clownfish is a canine known for its unique characteristics and adaptation to rainforest environments.
+Insect,Corn Snake,68,Grassland,Herbivore,The Betta Fish is a amphibian known for its unique characteristics and adaptation to tropical environments.
+Aquatic,Bald Eagle,59,Rainforest,Omnivore,The Monarch Butterfly is a aquatic known for its unique characteristics and adaptation to marine environments.
+Canine,Monarch Butterfly,2,Tropical,Piscivore,The Golden Retriever is a avian known for its unique characteristics and adaptation to grassland environments.
+Aquatic,Golden Retriever,93,Marine,Piscivore,The Monarch Butterfly is a insect known for its unique characteristics and adaptation to rainforest environments.
+Avian,Leopard Gecko,19,Marine,Piscivore,The Green Tree Frog is a amphibian known for its unique characteristics and adaptation to marine environments.
+Reptile,Monarch Butterfly,53,Marine,Granivore,The Monarch Butterfly is a feline known for its unique characteristics and adaptation to desert environments.
+Canine,Monarch Butterfly,84,Desert,Piscivore,The Monarch Butterfly is a feline known for its unique characteristics and adaptation to freshwater environments.
+Canine,Betta Fish,20,Tropical,Piscivore,The Corn Snake is a reptile known for its unique characteristics and adaptation to tropical environments.
+Avian,Golden Retriever,10,Desert,Omnivore,The Leopard Gecko is a avian known for its unique characteristics and adaptation to freshwater environments.
+Insect,Betta Fish,61,Desert,Insectivore,The African Grey Parrot is a insect known for its unique characteristics and adaptation to marine environments.
+Insect,Monarch Butterfly,34,Grassland,Granivore,The Golden Retriever is a aquatic known for its unique characteristics and adaptation to marine environments.
+Avian,Bald Eagle,44,Desert,Insectivore,The Monarch Butterfly is a aquatic known for its unique characteristics and adaptation to rainforest environments.
+Feline,Golden Retriever,80,Freshwater,Omnivore,The African Grey Parrot is a reptile known for its unique characteristics and adaptation to tropical environments.
+Canine,Green Tree Frog,89,Rainforest,Frugivore,The Clownfish is a feline known for its unique characteristics and adaptation to desert environments.
+Feline,Clownfish,51,Rainforest,Insectivore,The Siamese Cat is a reptile known for its unique characteristics and adaptation to freshwater environments.
+Aquatic,Monarch Butterfly,84,Domestic,Herbivore,The Green Tree Frog is a canine known for its unique characteristics and adaptation to rainforest environments.
+Canine,Monarch Butterfly,11,Domestic,Herbivore,The Leopard Gecko is a canine known for its unique characteristics and adaptation to desert environments.
+Canine,Corn Snake,43,Tropical,Frugivore,The Monarch Butterfly is a amphibian known for its unique characteristics and adaptation to rainforest environments.
+Amphibian,Corn Snake,87,Tropical,Omnivore,The Betta Fish is a canine known for its unique characteristics and adaptation to freshwater environments.
+Reptile,Betta Fish,69,Freshwater,Herbivore,The Siamese Cat is a feline known for its unique characteristics and adaptation to freshwater environments.
+Insect,Leopard Gecko,49,Rainforest,Granivore,The Betta Fish is a amphibian known for its unique characteristics and adaptation to grassland environments.
+Canine,Bald Eagle,41,Domestic,Omnivore,The Corn Snake is a feline known for its unique characteristics and adaptation to marine environments.
+Insect,Leopard Gecko,81,Grassland,Herbivore,The Leopard Gecko is a insect known for its unique characteristics and adaptation to desert environments.
+Aquatic,Clownfish,92,Domestic,Carnivore,The Clownfish is a canine known for its unique characteristics and adaptation to tropical environments.
+Insect,Monarch Butterfly,98,Desert,Frugivore,The Leopard Gecko is a amphibian known for its unique characteristics and adaptation to domestic environments.
+Feline,Bald Eagle,63,Marine,Frugivore,The Bald Eagle is a feline known for its unique characteristics and adaptation to grassland environments.
+Feline,Golden Retriever,70,Grassland,Frugivore,The Betta Fish is a amphibian known for its unique characteristics and adaptation to tropical environments.
+Amphibian,Monarch Butterfly,5,Marine,Omnivore,The Monarch Butterfly is a feline known for its unique characteristics and adaptation to rainforest environments.
+Reptile,Green Tree Frog,80,Marine,Granivore,The Green Tree Frog is a insect known for its unique characteristics and adaptation to desert environments.
+Aquatic,Monarch Butterfly,9,Rainforest,Piscivore,The Monarch Butterfly is a reptile known for its unique characteristics and adaptation to rainforest environments.
+Feline,African Grey Parrot,31,Marine,Frugivore,The Green Tree Frog is a avian known for its unique characteristics and adaptation to desert environments.
+Avian,Bald Eagle,81,Marine,Granivore,The Green Tree Frog is a aquatic known for its unique characteristics and adaptation to marine environments.
+Aquatic,African Grey Parrot,88,Desert,Herbivore,The Bald Eagle is a canine known for its unique characteristics and adaptation to freshwater environments.
+Insect,Betta Fish,37,Tropical,Carnivore,The Bald Eagle is a insect known for its unique characteristics and adaptation to freshwater environments.
+Aquatic,Corn Snake,30,Freshwater,Omnivore,The Green Tree Frog is a feline known for its unique characteristics and adaptation to desert environments.
+Reptile,Golden Retriever,96,Rainforest,Herbivore,The Green Tree Frog is a reptile known for its unique characteristics and adaptation to domestic environments.
+Feline,Monarch Butterfly,12,Domestic,Piscivore,The Betta Fish is a insect known for its unique characteristics and adaptation to tropical environments.
+Aquatic,Betta Fish,56,Desert,Herbivore,The African Grey Parrot is a canine known for its unique characteristics and adaptation to desert environments.
+Insect,Betta Fish,13,Marine,Granivore,The Corn Snake is a aquatic known for its unique characteristics and adaptation to rainforest environments.
+Amphibian,Golden Retriever,98,Domestic,Frugivore,The Monarch Butterfly is a avian known for its unique characteristics and adaptation to tropical environments.
+Amphibian,Siamese Cat,82,Desert,Carnivore,The Leopard Gecko is a avian known for its unique characteristics and adaptation to tropical environments.
+Feline,Monarch Butterfly,91,Grassland,Granivore,The Monarch Butterfly is a aquatic known for its unique characteristics and adaptation to freshwater environments.
+Amphibian,African Grey Parrot,13,Grassland,Granivore,The Leopard Gecko is a reptile known for its unique characteristics and adaptation to rainforest environments.
+Avian,Bald Eagle,57,Rainforest,Frugivore,The Green Tree Frog is a avian known for its unique characteristics and adaptation to freshwater environments.
+Reptile,African Grey Parrot,22,Marine,Insectivore,The Bald Eagle is a amphibian known for its unique characteristics and adaptation to grassland environments.
+Amphibian,Golden Retriever,89,Rainforest,Frugivore,The Bald Eagle is a reptile known for its unique characteristics and adaptation to tropical environments.
+Amphibian,Clownfish,39,Grassland,Insectivore,The Green Tree Frog is a feline known for its unique characteristics and adaptation to tropical environments.
+Avian,Monarch Butterfly,4,Desert,Frugivore,The Corn Snake is a reptile known for its unique characteristics and adaptation to tropical environments.
+Reptile,Green Tree Frog,6,Domestic,Carnivore,The Corn Snake is a amphibian known for its unique characteristics and adaptation to domestic environments.
+Aquatic,Leopard Gecko,42,Tropical,Granivore,The Corn Snake is a canine known for its unique characteristics and adaptation to freshwater environments.
+Reptile,Bald Eagle,8,Marine,Carnivore,The Siamese Cat is a insect known for its unique characteristics and adaptation to grassland environments.
+Canine,Green Tree Frog,38,Rainforest,Omnivore,The Golden Retriever is a insect known for its unique characteristics and adaptation to domestic environments.
+Feline,Green Tree Frog,46,Domestic,Frugivore,The Monarch Butterfly is a feline known for its unique characteristics and adaptation to freshwater environments.
+Feline,Monarch Butterfly,48,Domestic,Granivore,The Leopard Gecko is a canine known for its unique characteristics and adaptation to grassland environments.
+Canine,Clownfish,56,Tropical,Insectivore,The African Grey Parrot is a canine known for its unique characteristics and adaptation to tropical environments.
+Avian,Monarch Butterfly,19,Desert,Omnivore,The Corn Snake is a reptile known for its unique characteristics and adaptation to desert environments.
+Canine,Clownfish,32,Tropical,Herbivore,The Golden Retriever is a aquatic known for its unique characteristics and adaptation to grassland environments.
+Aquatic,Siamese Cat,68,Freshwater,Carnivore,The Betta Fish is a reptile known for its unique characteristics and adaptation to grassland environments.
+Aquatic,Bald Eagle,53,Tropical,Omnivore,The Bald Eagle is a canine known for its unique characteristics and adaptation to domestic environments.
+Feline,Golden Retriever,73,Freshwater,Granivore,The Corn Snake is a aquatic known for its unique characteristics and adaptation to marine environments.
+Aquatic,Corn Snake,88,Desert,Carnivore,The Golden Retriever is a canine known for its unique characteristics and adaptation to rainforest environments.
+Feline,Golden Retriever,24,Desert,Omnivore,The Clownfish is a aquatic known for its unique characteristics and adaptation to desert environments.
+Canine,Green Tree Frog,22,Desert,Herbivore,The Golden Retriever is a aquatic known for its unique characteristics and adaptation to freshwater environments.
+Canine,Leopard Gecko,23,Domestic,Herbivore,The Monarch Butterfly is a insect known for its unique characteristics and adaptation to tropical environments.
+Amphibian,Siamese Cat,11,Domestic,Piscivore,The Siamese Cat is a canine known for its unique characteristics and adaptation to rainforest environments.
+Amphibian,Golden Retriever,79,Marine,Insectivore,The African Grey Parrot is a feline known for its unique characteristics and adaptation to tropical environments.
+Canine,Golden Retriever,49,Grassland,Granivore,The Betta Fish is a aquatic known for its unique characteristics and adaptation to desert environments.
+Feline,Leopard Gecko,80,Marine,Piscivore,The Green Tree Frog is a avian known for its unique characteristics and adaptation to freshwater environments.
+Canine,Leopard Gecko,88,Tropical,Insectivore,The Monarch Butterfly is a canine known for its unique characteristics and adaptation to desert environments.
+Canine,Golden Retriever,31,Tropical,Herbivore,The Monarch Butterfly is a reptile known for its unique characteristics and adaptation to rainforest environments.
+Insect,Betta Fish,64,Marine,Omnivore,The Leopard Gecko is a amphibian known for its unique characteristics and adaptation to tropical environments.
+Avian,African Grey Parrot,75,Rainforest,Granivore,The Clownfish is a amphibian known for its unique characteristics and adaptation to freshwater environments.
+Canine,Leopard Gecko,19,Grassland,Frugivore,The Siamese Cat is a amphibian known for its unique characteristics and adaptation to freshwater environments.
+Aquatic,African Grey Parrot,30,Tropical,Carnivore,The Golden Retriever is a canine known for its unique characteristics and adaptation to marine environments.
+Feline,Bald Eagle,60,Rainforest,Herbivore,The Monarch Butterfly is a reptile known for its unique characteristics and adaptation to rainforest environments.
+Avian,Siamese Cat,82,Rainforest,Herbivore,The Bald Eagle is a canine known for its unique characteristics and adaptation to grassland environments.
+Amphibian,Betta Fish,33,Freshwater,Granivore,The Golden Retriever is a amphibian known for its unique characteristics and adaptation to tropical environments.
+Reptile,Leopard Gecko,59,Grassland,Granivore,The Siamese Cat is a reptile known for its unique characteristics and adaptation to freshwater environments.
+Feline,Bald Eagle,33,Freshwater,Omnivore,The Monarch Butterfly is a amphibian known for its unique characteristics and adaptation to freshwater environments.
+Aquatic,Clownfish,86,Desert,Granivore,The Green Tree Frog is a aquatic known for its unique characteristics and adaptation to freshwater environments.
+Feline,Green Tree Frog,2,Domestic,Frugivore,The Siamese Cat is a aquatic known for its unique characteristics and adaptation to domestic environments.
+Amphibian,African Grey Parrot,60,Marine,Herbivore,The Leopard Gecko is a feline known for its unique characteristics and adaptation to freshwater environments.
+Aquatic,Betta Fish,37,Freshwater,Herbivore,The Betta Fish is a reptile known for its unique characteristics and adaptation to desert environments.
+Aquatic,Betta Fish,87,Grassland,Omnivore,The Golden Retriever is a canine known for its unique characteristics and adaptation to grassland environments.
+Reptile,Siamese Cat,70,Domestic,Granivore,The Clownfish is a aquatic known for its unique characteristics and adaptation to rainforest environments.
+Feline,African Grey Parrot,21,Marine,Herbivore,The Golden Retriever is a feline known for its unique characteristics and adaptation to freshwater environments.
+Insect,Clownfish,10,Domestic,Insectivore,The Green Tree Frog is a canine known for its unique characteristics and adaptation to tropical environments.
+Reptile,Siamese Cat,57,Marine,Insectivore,The Betta Fish is a feline known for its unique characteristics and adaptation to freshwater environments.
+Insect,Betta Fish,45,Domestic,Frugivore,The Monarch Butterfly is a canine known for its unique characteristics and adaptation to desert environments.
+Reptile,Golden Retriever,76,Freshwater,Insectivore,The African Grey Parrot is a aquatic known for its unique characteristics and adaptation to tropical environments.
+Feline,Clownfish,39,Desert,Insectivore,The Betta Fish is a insect known for its unique characteristics and adaptation to freshwater environments.
+Canine,Betta Fish,82,Rainforest,Herbivore,The Monarch Butterfly is a amphibian known for its unique characteristics and adaptation to rainforest environments.
+Canine,Monarch Butterfly,55,Marine,Carnivore,The Green Tree Frog is a reptile known for its unique characteristics and adaptation to freshwater environments.
+Amphibian,Monarch Butterfly,89,Rainforest,Insectivore,The African Grey Parrot is a insect known for its unique characteristics and adaptation to grassland environments.
+Reptile,Leopard Gecko,33,Marine,Frugivore,The Siamese Cat is a aquatic known for its unique characteristics and adaptation to grassland environments.
+Avian,Siamese Cat,59,Grassland,Insectivore,The Green Tree Frog is a canine known for its unique characteristics and adaptation to domestic environments.
+Reptile,Betta Fish,39,Grassland,Herbivore,The Monarch Butterfly is a feline known for its unique characteristics and adaptation to freshwater environments.
+Reptile,Leopard Gecko,26,Marine,Granivore,The Siamese Cat is a avian known for its unique characteristics and adaptation to rainforest environments.
+Reptile,Siamese Cat,50,Desert,Piscivore,The Betta Fish is a aquatic known for its unique characteristics and adaptation to marine environments.
+Insect,Clownfish,62,Domestic,Herbivore,The Green Tree Frog is a canine known for its unique characteristics and adaptation to grassland environments.
+Amphibian,Betta Fish,14,Marine,Granivore,The Clownfish is a insect known for its unique characteristics and adaptation to marine environments.
+Canine,Siamese Cat,31,Domestic,Omnivore,The Bald Eagle is a feline known for its unique characteristics and adaptation to desert environments.
+Amphibian,Betta Fish,49,Desert,Frugivore,The Corn Snake is a reptile known for its unique characteristics and adaptation to marine environments.
+Amphibian,Golden Retriever,74,Tropical,Insectivore,The African Grey Parrot is a amphibian known for its unique characteristics and adaptation to rainforest environments.
+Amphibian,Green Tree Frog,46,Freshwater,Omnivore,The Monarch Butterfly is a canine known for its unique characteristics and adaptation to freshwater environments.
+Canine,Corn Snake,74,Rainforest,Insectivore,The Betta Fish is a avian known for its unique characteristics and adaptation to freshwater environments.
+Canine,Monarch Butterfly,38,Marine,Piscivore,The Leopard Gecko is a amphibian known for its unique characteristics and adaptation to domestic environments.
+Reptile,Green Tree Frog,90,Freshwater,Granivore,The Siamese Cat is a avian known for its unique characteristics and adaptation to tropical environments.
+Amphibian,Siamese Cat,38,Grassland,Carnivore,The Monarch Butterfly is a amphibian known for its unique characteristics and adaptation to freshwater environments.
+Avian,Corn Snake,3,Desert,Piscivore,The African Grey Parrot is a amphibian known for its unique characteristics and adaptation to marine environments.
+Insect,Green Tree Frog,85,Domestic,Herbivore,The Green Tree Frog is a avian known for its unique characteristics and adaptation to domestic environments.
+Insect,Golden Retriever,51,Marine,Herbivore,The Siamese Cat is a canine known for its unique characteristics and adaptation to desert environments.
+Canine,Monarch Butterfly,36,Freshwater,Omnivore,The Bald Eagle is a avian known for its unique characteristics and adaptation to freshwater environments.
+Feline,Bald Eagle,2,Domestic,Omnivore,The Clownfish is a canine known for its unique characteristics and adaptation to tropical environments.
+Feline,Siamese Cat,73,Tropical,Herbivore,The Siamese Cat is a feline known for its unique characteristics and adaptation to marine environments.
+Feline,Monarch Butterfly,88,Marine,Frugivore,The Bald Eagle is a aquatic known for its unique characteristics and adaptation to rainforest environments.
+Aquatic,Green Tree Frog,100,Rainforest,Herbivore,The Corn Snake is a reptile known for its unique characteristics and adaptation to domestic environments.
+Reptile,Bald Eagle,96,Marine,Herbivore,The Golden Retriever is a canine known for its unique characteristics and adaptation to desert environments.
+Feline,African Grey Parrot,7,Rainforest,Insectivore,The Corn Snake is a canine known for its unique characteristics and adaptation to rainforest environments.
+Reptile,Monarch Butterfly,78,Domestic,Piscivore,The Betta Fish is a insect known for its unique characteristics and adaptation to desert environments.
+Feline,African Grey Parrot,96,Marine,Frugivore,The Monarch Butterfly is a canine known for its unique characteristics and adaptation to desert environments.
+Avian,Corn Snake,64,Freshwater,Insectivore,The Monarch Butterfly is a reptile known for its unique characteristics and adaptation to freshwater environments.
+Reptile,Clownfish,37,Desert,Carnivore,The Siamese Cat is a amphibian known for its unique characteristics and adaptation to rainforest environments.
+Feline,Betta Fish,100,Grassland,Frugivore,The Leopard Gecko is a aquatic known for its unique characteristics and adaptation to rainforest environments.
+Insect,Corn Snake,30,Desert,Insectivore,The African Grey Parrot is a amphibian known for its unique characteristics and adaptation to marine environments.
+Canine,Bald Eagle,78,Tropical,Herbivore,The African Grey Parrot is a feline known for its unique characteristics and adaptation to desert environments.
+Reptile,Bald Eagle,46,Desert,Insectivore,The Clownfish is a avian known for its unique characteristics and adaptation to marine environments.
+Insect,Monarch Butterfly,29,Freshwater,Omnivore,The African Grey Parrot is a canine known for its unique characteristics and adaptation to tropical environments.
+Insect,Betta Fish,82,Tropical,Frugivore,The Monarch Butterfly is a avian known for its unique characteristics and adaptation to marine environments.
+Insect,Clownfish,25,Domestic,Granivore,The Clownfish is a reptile known for its unique characteristics and adaptation to freshwater environments.
+Aquatic,Green Tree Frog,80,Rainforest,Herbivore,The Siamese Cat is a avian known for its unique characteristics and adaptation to desert environments.
+Canine,Leopard Gecko,33,Grassland,Piscivore,The Leopard Gecko is a amphibian known for its unique characteristics and adaptation to grassland environments.
+Canine,Siamese Cat,87,Domestic,Insectivore,The Bald Eagle is a aquatic known for its unique characteristics and adaptation to rainforest environments.
+Amphibian,Clownfish,97,Rainforest,Herbivore,The Leopard Gecko is a reptile known for its unique characteristics and adaptation to domestic environments.
+Aquatic,Bald Eagle,93,Rainforest,Frugivore,The African Grey Parrot is a avian known for its unique characteristics and adaptation to domestic environments.
+Insect,Leopard Gecko,99,Tropical,Granivore,The Monarch Butterfly is a avian known for its unique characteristics and adaptation to freshwater environments.
+Canine,Bald Eagle,85,Freshwater,Omnivore,The Betta Fish is a reptile known for its unique characteristics and adaptation to freshwater environments.
+Canine,Betta Fish,88,Desert,Omnivore,The Green Tree Frog is a reptile known for its unique characteristics and adaptation to desert environments.
+Insect,Betta Fish,18,Desert,Frugivore,The Monarch Butterfly is a insect known for its unique characteristics and adaptation to freshwater environments.
+Insect,Monarch Butterfly,81,Grassland,Frugivore,The Betta Fish is a feline known for its unique characteristics and adaptation to desert environments.
+Feline,Green Tree Frog,13,Freshwater,Insectivore,The Green Tree Frog is a aquatic known for its unique characteristics and adaptation to grassland environments.
+Feline,Golden Retriever,81,Grassland,Herbivore,The Leopard Gecko is a reptile known for its unique characteristics and adaptation to desert environments.
+Reptile,Bald Eagle,83,Freshwater,Piscivore,The African Grey Parrot is a reptile known for its unique characteristics and adaptation to desert environments.
+Reptile,Green Tree Frog,6,Tropical,Granivore,The Clownfish is a amphibian known for its unique characteristics and adaptation to grassland environments.
+Reptile,African Grey Parrot,40,Tropical,Frugivore,The Bald Eagle is a aquatic known for its unique characteristics and adaptation to freshwater environments.
+Feline,Bald Eagle,57,Domestic,Frugivore,The Leopard Gecko is a avian known for its unique characteristics and adaptation to marine environments.
+Insect,Leopard Gecko,5,Tropical,Carnivore,The Clownfish is a insect known for its unique characteristics and adaptation to freshwater environments.
+Reptile,Green Tree Frog,75,Desert,Omnivore,The Monarch Butterfly is a avian known for its unique characteristics and adaptation to domestic environments.
+Canine,Clownfish,47,Tropical,Carnivore,The Betta Fish is a feline known for its unique characteristics and adaptation to rainforest environments.
+Feline,Green Tree Frog,94,Tropical,Granivore,The Corn Snake is a feline known for its unique characteristics and adaptation to grassland environments.
+Reptile,Clownfish,17,Rainforest,Piscivore,The Corn Snake is a canine known for its unique characteristics and adaptation to grassland environments.
+Canine,Betta Fish,12,Tropical,Frugivore,The Bald Eagle is a amphibian known for its unique characteristics and adaptation to tropical environments.
+Reptile,Clownfish,38,Freshwater,Granivore,The Bald Eagle is a insect known for its unique characteristics and adaptation to desert environments.
+Avian,Corn Snake,42,Freshwater,Insectivore,The Siamese Cat is a insect known for its unique characteristics and adaptation to freshwater environments.
+Insect,Golden Retriever,96,Grassland,Omnivore,The Monarch Butterfly is a amphibian known for its unique characteristics and adaptation to marine environments.
+Insect,Corn Snake,54,Domestic,Carnivore,The African Grey Parrot is a amphibian known for its unique characteristics and adaptation to desert environments.
+Reptile,Leopard Gecko,23,Tropical,Omnivore,The Leopard Gecko is a avian known for its unique characteristics and adaptation to grassland environments.
+Avian,Siamese Cat,26,Freshwater,Carnivore,The African Grey Parrot is a amphibian known for its unique characteristics and adaptation to marine environments.
+Reptile,Leopard Gecko,17,Grassland,Granivore,The Monarch Butterfly is a canine known for its unique characteristics and adaptation to marine environments.
+Amphibian,Monarch Butterfly,70,Marine,Frugivore,The Betta Fish is a reptile known for its unique characteristics and adaptation to rainforest environments.
+Amphibian,Bald Eagle,47,Marine,Herbivore,The Monarch Butterfly is a aquatic known for its unique characteristics and adaptation to rainforest environments.
+Insect,Corn Snake,68,Freshwater,Herbivore,The Monarch Butterfly is a aquatic known for its unique characteristics and adaptation to domestic environments.
+Aquatic,Leopard Gecko,65,Rainforest,Insectivore,The Green Tree Frog is a amphibian known for its unique characteristics and adaptation to freshwater environments.
+Amphibian,Bald Eagle,35,Freshwater,Piscivore,The Corn Snake is a aquatic known for its unique characteristics and adaptation to grassland environments.
+Amphibian,Bald Eagle,22,Rainforest,Omnivore,The Siamese Cat is a canine known for its unique characteristics and adaptation to freshwater environments.
+Reptile,Bald Eagle,33,Marine,Piscivore,The Leopard Gecko is a amphibian known for its unique characteristics and adaptation to grassland environments.
+Feline,Golden Retriever,62,Grassland,Carnivore,The Green Tree Frog is a feline known for its unique characteristics and adaptation to grassland environments.
+Feline,Siamese Cat,38,Rainforest,Frugivore,The Betta Fish is a canine known for its unique characteristics and adaptation to rainforest environments.
+Avian,Clownfish,96,Grassland,Insectivore,The Monarch Butterfly is a insect known for its unique characteristics and adaptation to desert environments.
+Feline,Leopard Gecko,44,Grassland,Herbivore,The Monarch Butterfly is a canine known for its unique characteristics and adaptation to domestic environments.
+Canine,Monarch Butterfly,15,Rainforest,Herbivore,The Siamese Cat is a avian known for its unique characteristics and adaptation to tropical environments.
+Aquatic,Leopard Gecko,60,Desert,Insectivore,The Corn Snake is a amphibian known for its unique characteristics and adaptation to rainforest environments.
+Amphibian,Clownfish,10,Freshwater,Granivore,The Corn Snake is a aquatic known for its unique characteristics and adaptation to grassland environments.
+Aquatic,Betta Fish,19,Grassland,Omnivore,The Betta Fish is a feline known for its unique characteristics and adaptation to marine environments.
+Canine,Green Tree Frog,97,Desert,Piscivore,The Green Tree Frog is a reptile known for its unique characteristics and adaptation to marine environments.
+Amphibian,Bald Eagle,29,Tropical,Carnivore,The Betta Fish is a amphibian known for its unique characteristics and adaptation to rainforest environments.
+Avian,Corn Snake,87,Marine,Piscivore,The African Grey Parrot is a avian known for its unique characteristics and adaptation to domestic environments.
+Canine,Corn Snake,93,Domestic,Herbivore,The Bald Eagle is a canine known for its unique characteristics and adaptation to desert environments.
+Canine,Green Tree Frog,87,Marine,Insectivore,The Monarch Butterfly is a canine known for its unique characteristics and adaptation to domestic environments.
+Aquatic,Monarch Butterfly,51,Marine,Herbivore,The African Grey Parrot is a avian known for its unique characteristics and adaptation to desert environments.
+Reptile,Corn Snake,72,Grassland,Frugivore,The Green Tree Frog is a reptile known for its unique characteristics and adaptation to freshwater environments.
+Aquatic,Green Tree Frog,47,Desert,Herbivore,The Leopard Gecko is a aquatic known for its unique characteristics and adaptation to marine environments.
+Insect,Green Tree Frog,12,Freshwater,Carnivore,The Green Tree Frog is a reptile known for its unique characteristics and adaptation to domestic environments.
+Aquatic,Bald Eagle,51,Desert,Omnivore,The Bald Eagle is a amphibian known for its unique characteristics and adaptation to grassland environments.
+Feline,Clownfish,2,Rainforest,Omnivore,The Bald Eagle is a avian known for its unique characteristics and adaptation to domestic environments.
+Canine,Clownfish,34,Domestic,Frugivore,The Clownfish is a canine known for its unique characteristics and adaptation to freshwater environments.
+Aquatic,Clownfish,69,Desert,Carnivore,The Siamese Cat is a canine known for its unique characteristics and adaptation to freshwater environments.
+Canine,Leopard Gecko,16,Rainforest,Insectivore,The Green Tree Frog is a amphibian known for its unique characteristics and adaptation to domestic environments.
+Insect,Siamese Cat,59,Domestic,Piscivore,The African Grey Parrot is a amphibian known for its unique characteristics and adaptation to tropical environments.
+Feline,Leopard Gecko,48,Desert,Insectivore,The Corn Snake is a feline known for its unique characteristics and adaptation to rainforest environments.
+Canine,Green Tree Frog,87,Marine,Piscivore,The African Grey Parrot is a avian known for its unique characteristics and adaptation to rainforest environments.
+Aquatic,Siamese Cat,96,Marine,Omnivore,The Monarch Butterfly is a reptile known for its unique characteristics and adaptation to tropical environments.
+Canine,Corn Snake,87,Domestic,Herbivore,The Monarch Butterfly is a amphibian known for its unique characteristics and adaptation to tropical environments.
+Amphibian,African Grey Parrot,34,Domestic,Granivore,The African Grey Parrot is a amphibian known for its unique characteristics and adaptation to grassland environments.
+Insect,Leopard Gecko,75,Desert,Herbivore,The Monarch Butterfly is a reptile known for its unique characteristics and adaptation to domestic environments.
+Feline,Leopard Gecko,49,Freshwater,Frugivore,The Betta Fish is a feline known for its unique characteristics and adaptation to marine environments.
+Reptile,Bald Eagle,82,Desert,Insectivore,The Betta Fish is a reptile known for its unique characteristics and adaptation to marine environments.
+Canine,Clownfish,48,Domestic,Carnivore,The Golden Retriever is a amphibian known for its unique characteristics and adaptation to tropical environments.
+Aquatic,Betta Fish,14,Grassland,Piscivore,The Leopard Gecko is a avian known for its unique characteristics and adaptation to freshwater environments.
+Feline,Corn Snake,87,Freshwater,Herbivore,The Siamese Cat is a aquatic known for its unique characteristics and adaptation to domestic environments.
+Aquatic,Betta Fish,30,Freshwater,Frugivore,The Corn Snake is a feline known for its unique characteristics and adaptation to desert environments.
+Aquatic,Clownfish,61,Domestic,Insectivore,The Green Tree Frog is a feline known for its unique characteristics and adaptation to marine environments.
+Canine,Siamese Cat,4,Rainforest,Carnivore,The Siamese Cat is a avian known for its unique characteristics and adaptation to grassland environments.
+Aquatic,Leopard Gecko,80,Rainforest,Omnivore,The Bald Eagle is a aquatic known for its unique characteristics and adaptation to grassland environments.
+Canine,Clownfish,72,Rainforest,Carnivore,The Green Tree Frog is a aquatic known for its unique characteristics and adaptation to marine environments.
+Reptile,Leopard Gecko,42,Marine,Granivore,The Betta Fish is a reptile known for its unique characteristics and adaptation to rainforest environments.
+Amphibian,Green Tree Frog,79,Marine,Omnivore,The Siamese Cat is a avian known for its unique characteristics and adaptation to desert environments.
+Aquatic,African Grey Parrot,29,Rainforest,Insectivore,The Bald Eagle is a aquatic known for its unique characteristics and adaptation to tropical environments.
+Aquatic,Clownfish,83,Rainforest,Carnivore,The Clownfish is a aquatic known for its unique characteristics and adaptation to rainforest environments.
+Aquatic,Golden Retriever,9,Freshwater,Frugivore,The Siamese Cat is a amphibian known for its unique characteristics and adaptation to tropical environments.
+Avian,Corn Snake,82,Grassland,Insectivore,The Green Tree Frog is a canine known for its unique characteristics and adaptation to tropical environments.
+Avian,African Grey Parrot,60,Domestic,Omnivore,The Clownfish is a canine known for its unique characteristics and adaptation to tropical environments.
+Feline,Clownfish,90,Marine,Granivore,The Green Tree Frog is a amphibian known for its unique characteristics and adaptation to tropical environments.
+Amphibian,Golden Retriever,39,Freshwater,Frugivore,The Corn Snake is a reptile known for its unique characteristics and adaptation to marine environments.
+Amphibian,Golden Retriever,84,Rainforest,Granivore,The Betta Fish is a feline known for its unique characteristics and adaptation to rainforest environments.
+Avian,Corn Snake,53,Grassland,Herbivore,The Monarch Butterfly is a reptile known for its unique characteristics and adaptation to tropical environments.
+Feline,Clownfish,15,Tropical,Frugivore,The Bald Eagle is a amphibian known for its unique characteristics and adaptation to rainforest environments.
+Avian,African Grey Parrot,18,Desert,Herbivore,The African Grey Parrot is a aquatic known for its unique characteristics and adaptation to tropical environments.
+Reptile,Bald Eagle,6,Rainforest,Frugivore,The Bald Eagle is a avian known for its unique characteristics and adaptation to tropical environments.
+Feline,Siamese Cat,5,Marine,Omnivore,The African Grey Parrot is a avian known for its unique characteristics and adaptation to freshwater environments.
+Amphibian,Golden Retriever,39,Rainforest,Piscivore,The Bald Eagle is a aquatic known for its unique characteristics and adaptation to domestic environments.
+Amphibian,Betta Fish,64,Tropical,Piscivore,The Green Tree Frog is a canine known for its unique characteristics and adaptation to marine environments.
+Avian,Clownfish,15,Domestic,Herbivore,The African Grey Parrot is a feline known for its unique characteristics and adaptation to freshwater environments.
+Reptile,Bald Eagle,13,Marine,Herbivore,The Monarch Butterfly is a aquatic known for its unique characteristics and adaptation to rainforest environments.
+Avian,Bald Eagle,31,Domestic,Granivore,The Bald Eagle is a reptile known for its unique characteristics and adaptation to grassland environments.
+Insect,Bald Eagle,69,Freshwater,Carnivore,The Bald Eagle is a reptile known for its unique characteristics and adaptation to grassland environments.
+Canine,Green Tree Frog,18,Freshwater,Frugivore,The Bald Eagle is a reptile known for its unique characteristics and adaptation to tropical environments.
+Canine,African Grey Parrot,50,Desert,Frugivore,The Siamese Cat is a aquatic known for its unique characteristics and adaptation to domestic environments.
+Reptile,Golden Retriever,59,Grassland,Frugivore,The Leopard Gecko is a avian known for its unique characteristics and adaptation to domestic environments.
+Aquatic,Clownfish,48,Domestic,Frugivore,The Clownfish is a feline known for its unique characteristics and adaptation to rainforest environments.
+Aquatic,Bald Eagle,86,Rainforest,Carnivore,The Clownfish is a feline known for its unique characteristics and adaptation to freshwater environments.
+Canine,Siamese Cat,96,Grassland,Granivore,The Bald Eagle is a aquatic known for its unique characteristics and adaptation to grassland environments.
+Canine,Siamese Cat,90,Tropical,Herbivore,The Bald Eagle is a aquatic known for its unique characteristics and adaptation to rainforest environments.
+Aquatic,Monarch Butterfly,70,Domestic,Piscivore,The Siamese Cat is a aquatic known for its unique characteristics and adaptation to domestic environments.
+Feline,Bald Eagle,54,Tropical,Carnivore,The Clownfish is a insect known for its unique characteristics and adaptation to rainforest environments.
+Aquatic,Siamese Cat,76,Grassland,Omnivore,The Green Tree Frog is a aquatic known for its unique characteristics and adaptation to freshwater environments.
+Avian,Betta Fish,96,Marine,Carnivore,The Golden Retriever is a insect known for its unique characteristics and adaptation to grassland environments.
+Feline,Golden Retriever,94,Marine,Granivore,The Bald Eagle is a aquatic known for its unique characteristics and adaptation to tropical environments.
+Avian,African Grey Parrot,20,Rainforest,Carnivore,The Monarch Butterfly is a canine known for its unique characteristics and adaptation to grassland environments.
+Canine,African Grey Parrot,54,Rainforest,Carnivore,The Leopard Gecko is a avian known for its unique characteristics and adaptation to freshwater environments.
+Feline,Betta Fish,84,Rainforest,Granivore,The Golden Retriever is a reptile known for its unique characteristics and adaptation to desert environments.
+Avian,Clownfish,13,Tropical,Insectivore,The Green Tree Frog is a insect known for its unique characteristics and adaptation to freshwater environments.
+Avian,Siamese Cat,63,Desert,Omnivore,The Siamese Cat is a reptile known for its unique characteristics and adaptation to freshwater environments.
+Feline,Leopard Gecko,79,Desert,Herbivore,The Siamese Cat is a insect known for its unique characteristics and adaptation to freshwater environments.
+Reptile,Siamese Cat,53,Desert,Piscivore,The Leopard Gecko is a feline known for its unique characteristics and adaptation to freshwater environments.
+Insect,Corn Snake,36,Marine,Piscivore,The Betta Fish is a amphibian known for its unique characteristics and adaptation to desert environments.
+Aquatic,Monarch Butterfly,5,Marine,Herbivore,The Betta Fish is a amphibian known for its unique characteristics and adaptation to marine environments.
+Amphibian,Betta Fish,89,Freshwater,Insectivore,The African Grey Parrot is a aquatic known for its unique characteristics and adaptation to tropical environments.
+Avian,Betta Fish,48,Desert,Granivore,The Leopard Gecko is a insect known for its unique characteristics and adaptation to tropical environments.
+Aquatic,Betta Fish,28,Grassland,Piscivore,The Golden Retriever is a aquatic known for its unique characteristics and adaptation to desert environments.
+Insect,Leopard Gecko,57,Rainforest,Carnivore,The Corn Snake is a avian known for its unique characteristics and adaptation to rainforest environments.
+Amphibian,Corn Snake,57,Domestic,Piscivore,The Corn Snake is a feline known for its unique characteristics and adaptation to desert environments.
+Aquatic,Monarch Butterfly,31,Freshwater,Omnivore,The Clownfish is a avian known for its unique characteristics and adaptation to rainforest environments.
+Canine,Bald Eagle,47,Grassland,Omnivore,The Clownfish is a insect known for its unique characteristics and adaptation to rainforest environments.
+Amphibian,Bald Eagle,13,Grassland,Herbivore,The Siamese Cat is a feline known for its unique characteristics and adaptation to freshwater environments.
+Insect,Clownfish,88,Desert,Insectivore,The Monarch Butterfly is a canine known for its unique characteristics and adaptation to desert environments.
+Aquatic,Betta Fish,48,Domestic,Frugivore,The African Grey Parrot is a amphibian known for its unique characteristics and adaptation to freshwater environments.
+Avian,Monarch Butterfly,70,Desert,Frugivore,The African Grey Parrot is a feline known for its unique characteristics and adaptation to tropical environments.
+Amphibian,Clownfish,83,Domestic,Insectivore,The Green Tree Frog is a insect known for its unique characteristics and adaptation to tropical environments.
+Canine,Betta Fish,46,Rainforest,Piscivore,The Monarch Butterfly is a reptile known for its unique characteristics and adaptation to tropical environments.
+Feline,Betta Fish,8,Grassland,Insectivore,The Betta Fish is a amphibian known for its unique characteristics and adaptation to desert environments.
+Avian,Golden Retriever,51,Marine,Granivore,The Monarch Butterfly is a reptile known for its unique characteristics and adaptation to marine environments.
+Canine,Betta Fish,36,Desert,Insectivore,The Siamese Cat is a amphibian known for its unique characteristics and adaptation to freshwater environments.
+Canine,Siamese Cat,25,Desert,Granivore,The Siamese Cat is a reptile known for its unique characteristics and adaptation to rainforest environments.
+Amphibian,Leopard Gecko,16,Grassland,Piscivore,The Clownfish is a amphibian known for its unique characteristics and adaptation to desert environments.
+Aquatic,Leopard Gecko,59,Freshwater,Omnivore,The Bald Eagle is a reptile known for its unique characteristics and adaptation to desert environments.
+Feline,Clownfish,12,Grassland,Carnivore,The Betta Fish is a canine known for its unique characteristics and adaptation to freshwater environments.
+Avian,Siamese Cat,85,Rainforest,Herbivore,The Siamese Cat is a amphibian known for its unique characteristics and adaptation to marine environments.
+Avian,African Grey Parrot,28,Freshwater,Frugivore,The Green Tree Frog is a insect known for its unique characteristics and adaptation to domestic environments.
+Aquatic,Leopard Gecko,83,Tropical,Omnivore,The Corn Snake is a reptile known for its unique characteristics and adaptation to tropical environments.
+Feline,African Grey Parrot,82,Desert,Insectivore,The Monarch Butterfly is a insect known for its unique characteristics and adaptation to tropical environments.
+Amphibian,Corn Snake,77,Domestic,Insectivore,The Bald Eagle is a avian known for its unique characteristics and adaptation to desert environments.
+Avian,Siamese Cat,3,Rainforest,Frugivore,The Clownfish is a avian known for its unique characteristics and adaptation to rainforest environments.
+Feline,African Grey Parrot,7,Grassland,Piscivore,The Betta Fish is a feline known for its unique characteristics and adaptation to rainforest environments.
+Amphibian,Golden Retriever,43,Tropical,Herbivore,The Bald Eagle is a insect known for its unique characteristics and adaptation to desert environments.
+Amphibian,Monarch Butterfly,32,Desert,Carnivore,The Golden Retriever is a canine known for its unique characteristics and adaptation to domestic environments.
+Insect,Bald Eagle,17,Desert,Granivore,The Bald Eagle is a canine known for its unique characteristics and adaptation to domestic environments.
+Avian,Betta Fish,73,Grassland,Granivore,The African Grey Parrot is a reptile known for its unique characteristics and adaptation to marine environments.
+Aquatic,Bald Eagle,27,Grassland,Piscivore,The Golden Retriever is a reptile known for its unique characteristics and adaptation to tropical environments.
+Reptile,Clownfish,9,Grassland,Frugivore,The African Grey Parrot is a amphibian known for its unique characteristics and adaptation to desert environments.
+Avian,Golden Retriever,98,Marine,Piscivore,The African Grey Parrot is a insect known for its unique characteristics and adaptation to desert environments.
+Insect,Leopard Gecko,71,Tropical,Carnivore,The Siamese Cat is a amphibian known for its unique characteristics and adaptation to desert environments.
