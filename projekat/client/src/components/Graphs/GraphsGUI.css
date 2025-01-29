@@ -1,0 +1,82 @@
+
+:root {
+    --body-bg: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    --header-bg: rgb(0, 125, 104);
+    --table-bg: linear-gradient(159deg, rgba(46,139,87,1) 0%, rgba(64,224,208,1) 100%);
+    --border: 2px solid #000;
+    --button-bg:  rgba(186, 177, 177, 0.3);
+    --button-hover-bg: #fff;
+    --button-text-color: #000;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+  }
+
+
+  .graphs-container {
+    display: flex;
+    flex-direction: row; /* Aligns items horizontally */
+    justify-content: center; /* Center-align items for better focus */
+    padding: 20px;
+    background: var(--table-bg);
+    border-radius: 15px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+    margin-top: 20px;
+}
+
+.graph-box {
+    flex: 1; /* Adjusts to fill available space proportionally */
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+    margin: 10px;
+    width: 30%; /* Smaller width for the pie chart */
+}
+
+.bar-graph-box {
+    flex: 2; /* Takes twice the space of pie chart */
+    height: 500px; /* Specific height for the bar graph */
+    padding: 30px; /* Larger padding */
+    width: 800px; /* Larger width for the bar chart */
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+    margin: 10px;
+}
+
+.graph-title {
+    color: #fff;
+    font-family: 'Modak';
+    font-size: 2.5em;
+    font-weight: normal;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+}
+
+.graph-box canvas, .bar-graph-box canvas {
+    width: 100%;
+    height: auto; /* Ensures canvas size is responsive */
+}
+
+
+.header{
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+    font-size: 80px;
+    background: var(--header-bg);
+    color: rgb(255, 255, 255);
+    border-radius: 15px 15px 0 0;
+    font-family: 'Modak';
+    font-weight: normal;
+  }
+
+  .dog-fact-container{
+    background: var(--header-bg);
+    color: rgb(255, 255, 255);
+    border-radius: 15px 15px 0 0;
+    font-family: 'Modak';
+    font-weight: normal;
+    justify-content: center;
+    padding: 10px;
+    font-size: 35px;
+  }
