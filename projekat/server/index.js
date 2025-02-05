@@ -92,7 +92,7 @@ async function createAdminUser() {
       const hashedPassword = await bcrypt.hash(process.env.ADMIN_PASSWORD, salt);
 
       const adminUser = new User({
-        name: "Admin",
+        name: "Chat Bot Admin",
         email: adminEmail,
         password: hashedPassword,
         isAdmin: true,
