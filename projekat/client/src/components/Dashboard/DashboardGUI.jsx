@@ -196,6 +196,33 @@ export default function DashboardGUI() {
             <button onClick={exportToCSV} className="export-btn">Export to CSV</button> 
             {/* Dugme za izvoz podataka */}
           </div>
+          
+          {/* Popup za uređivanje korisnika */}
+          {editUserId && (
+            <div className="edit-popup">
+              <div className="edit-form">
+                <h2 style={{marginBottom: "30px", color:"#fff"}}>Edit User</h2>
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Name"
+                  value={editUserData.name} // Polje za uređivanje imena korisnika.
+                  onChange={handleEditChange}
+                />
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Email"
+                  value={editUserData.email} // Polje za uređivanje email-a korisnika.
+                  onChange={handleEditChange}
+                />
+                <button onClick={handleUpdate}>Update User</button> 
+                {/* Dugme za ažuriranje korisnika */}
+                <button onClick={() => setEditUserId(null)}>Cancel</button> 
+                {/* Dugme za otkazivanje uređivanja */}
+              </div>
+            </div>
+          )}
 
           {/* Tabela sa korisnicima */}
           <table className="user-table">
