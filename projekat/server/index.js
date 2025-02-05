@@ -3,81 +3,96 @@ if (process.env.NODE_ENV !== "production") {
   require("dotenv").config();
 }
 
-// Uvoz potrebnih biblioteka i modela.
-const fs = require('fs'); // Rad sa fajlovima.
-const csv = require('csv-parser'); // Parsiranje CSV fajlova.
-const Animal = require('./models/Animal'); // Model za životinje.
-const bcrypt = require("bcryptjs"); // Biblioteka za heširanje lozinki.
-const express = require("express"); // Web framework za Node.js.
-const mongoose = require("mongoose"); // Biblioteka za rad sa MongoDB bazom.
-const morgan = require("morgan"); // Middleware za logovanje HTTP zahteva.
-const bp = require("body-parser"); // Middleware za parsiranje JSON podataka.
-const jwt = require("jsonwebtoken"); // JWT autentifikacija.
-const cors = require("cors"); // Omogućavanje CORS zahteva.
-const User = require("./models/User"); // Model korisnika.
-const Message = require("./models/Message"); // Model poruka.
-const { get_response } = require("./handler/responseHandler"); // Funkcija za generisanje odgovora AI bota.
+// Uvoz potrebnih biblioteka.
+const fs = require('fs'); // Rad sa fajlovima
+const csv = require('csv-parser'); // Parsiranje CSV fajlova
+const bcrypt = require("bcryptjs"); // Heširanje lozinki
+const express = require("express"); // Web framework za Node.js
+const mongoose = require("mongoose"); // Rad sa MongoDB bazom podataka
+const morgan = require("morgan"); // Middleware za logovanje HTTP zahteva
+const bp = require("body-parser"); // Parsiranje JSON podataka
+const jwt = require("jsonwebtoken"); // JWT autentifikacija
+const cors = require("cors"); // Omogućavanje CORS zahteva
+const helmet = require('helmet'); // Poboljšana sigurnost HTTP zaglavlja
+const xssClean = require('xss-clean'); // Sprečavanje XSS napada
+const mongoSanitize = require('express-mongo-sanitize'); // Sprečavanje NoSQL injekcija
 
-// Biblioteke za dodatnu sigurnost (štite aplikaciju od napada).
-const helmet = require('helmet'); // Postavlja sigurnosne HTTP zaglavlja.
-const xssClean = require('xss-clean'); // Sprečava XSS napade sanitizacijom ulaznih podataka.
-const mongoSanitize = require('express-mongo-sanitize'); // Sprečava NoSQL injekcije.
+// Uvoz modela
+const User = require("./models/User"); // Model korisnika
+const Message = require("./models/Message"); // Model poruka
+const Animal = require('./models/Animal'); // Model životinja
+const { get_response } = require("./handler/responseHandler"); // Funkcija za generisanje odgovora AI bota
 
+// Inicijalizacija Express aplikacije
 const app = express();
 
-// Omogućavanje CORS-a da aplikacija može komunicirati sa frontend-om iz drugih domena.
-app.use(cors());
+// Podešavanje sigurnosnih middleware-a
+app.use(cors()); // Omogućavanje CORS-a
+app.use(helmet()); // Zaštita HTTP zaglavlja
+app.use(xssClean()); // Sprečavanje XSS napada
+app.use(mongoSanitize()); // Sprečavanje NoSQL injekcija
 
-// Poboljšavanje sigurnosti aplikacije pomoću Helmet-a.
-app.use(helmet());
+// Middleware za logovanje i parsiranje zahteva
+app.use(morgan("dev")); // Logovanje HTTP zahteva
+app.use(bp.json()); // Parsiranje JSON podataka
+app.use(bp.urlencoded({ extended: false })); // Parsiranje URL enkodovanih podataka
 
-// Sanitizacija korisničkih unosa radi zaštite od XSS napada.
-app.use(xssClean());
+// Kreiranje HTTP servera
+const http = require("http").createServer(app);
 
-// Sprečavanje NoSQL injekcija sanitizacijom MongoDB upita.
-app.use(mongoSanitize());
-
-// Logovanje HTTP zahteva u konzolu tokom razvoja.
-app.use(morgan("dev"));
-
-// Parsiranje JSON podataka i URL-enkodovanih podataka iz HTTP zahteva.
-app.use(bp.json());
-app.use(bp.urlencoded({ extended: false }));
-
-// ------------------------
-// OPCIONO: TEST RUTE
-// ------------------------
-
-// Ruta za testiranje zaštite od XSS napada.
-app.post('/test/xss', (req, res) => {
-  // xssClean middleware je već sanitizovao req.body.input.
-  res.json({ sanitized: req.body.input });
+// Inicijalizacija Socket.IO servera na istom HTTP serveru
+const io = require("socket.io")(http, {
+  cors: {
+    origin: "http://localhost:3000", // Dozvoljeno samo za lokalni frontend
+  },
 });
 
-// Ruta za testiranje zaštite od NoSQL injekcija.
-app.post('/test/nosql', (req, res) => {
-  // express-mongo-sanitize će ukloniti ključne reči koje mogu uzrokovati napad ($, .)
-  res.json({ sanitized: req.body });
+// Obrada događaja povezivanja korisnika putem WebSocket-a
+io.on("connection", (socket) => {
+  console.log("Korisnik je povezan");
+  socket.emit("message", "Dobrodošli u AI chatbot");
+
+  // Osluškujemo poruke korisnika
+  socket.on("message", async (msg) => {
+    try {
+      const decoded = jwt.verify(msg.token, process.env.JWT_SECRET); // Verifikacija tokena
+      const userId = decoded.id;
+      const response = await get_response(msg.text); // Generisanje AI odgovora
+
+      // Kreiranje i čuvanje poruke u bazi
+      const messageToAppend = { text: msg.text, response };
+      const newMessage = new Message(messageToAppend);
+      await newMessage.save();
+
+      // Ažuriranje poruka korisnika
+      await User.findByIdAndUpdate(userId, { $push: { messages: newMessage._id } });
+
+      // Slanje odgovora nazad korisniku putem WebSocket-a
+      socket.emit("response", newMessage);
+    } catch (error) {
+      console.error("Greška prilikom obrade poruke:", error);
+      socket.emit("response", { text: "Došlo je do greške pri obradi vaše poruke.", response: error.message });
+    }
+  });
+
+  // Obrada događaja odspajanja korisnika
+  socket.on("disconnect", () => {
+    console.log("Korisnik je napustio konverzaciju");
+  });
 });
 
-// ------------------------
-// GLAVNI DEO APLIKACIJE
-// ------------------------
-
-// Funkcija za kreiranje admin korisnika ako ne postoji u bazi.
+// Funkcija za kreiranje admin korisnika ako ne postoji u bazi
 async function createAdminUser() {
   try {
     const adminEmail = process.env.ADMIN_EMAIL;
     const existingAdmin = await User.findOne({ email: adminEmail });
 
-    // Provera da li admin korisnik već postoji.
     if (!existingAdmin) {
-      const salt = await bcrypt.genSalt(10); // Generisanje soli za heširanje lozinke.
-      const hashedPassword = await bcrypt.hash(process.env.ADMIN_PASSWORD, salt); // Heširanje lozinke.
-      
-      // Kreiranje novog admin korisnika.
+      const salt = await bcrypt.genSalt(10);
+      const hashedPassword = await bcrypt.hash(process.env.ADMIN_PASSWORD, salt);
+
       const adminUser = new User({
-        name: "Animal Bot Admin",
+        name: "Admin",
         email: adminEmail,
         password: hashedPassword,
         isAdmin: true,
@@ -93,20 +108,17 @@ async function createAdminUser() {
   }
 }
 
-// Funkcija za učitavanje podataka iz CSV fajla i dodavanje u bazu.
+// Funkcija za učitavanje podataka o životinjama iz CSV fajla
 const insertAnimalDataFromCSV = async () => {
   const results = [];
-  
-  // Čitanje CSV fajla.
+
   fs.createReadStream('./db/animal_data_500.csv')
-    .pipe(csv()) // Parsiranje CSV fajla.
-    .on('data', (data) => results.push(data)) // Dodavanje svakog reda u listu rezultata.
+    .pipe(csv()) 
+    .on('data', (data) => results.push(data)) 
     .on('end', async () => {
-      // Iteracija kroz listu i dodavanje podataka u bazu.
       for (const animal of results) {
         const { species, breed, averageLifespan, habitatType, dietType, description } = animal;
 
-        // Provera da li životinja već postoji u bazi.
         const existingAnimal = await Animal.findOne({ species, breed });
 
         if (!existingAnimal) {
@@ -120,7 +132,7 @@ const insertAnimalDataFromCSV = async () => {
           });
 
           try {
-            await newAnimal.save(); // Čuvanje novog zapisa u bazi.
+            await newAnimal.save();
             console.log(`Dodata životinja: ${species} (${breed})`);
           } catch (error) {
             console.error(`Greška pri dodavanju ${species} (${breed}):`, error);
@@ -133,81 +145,24 @@ const insertAnimalDataFromCSV = async () => {
     });
 };
 
-// Konekcija sa MongoDB bazom podataka.
-const db = process.env.MONGO_URI;
+// Konekcija sa MongoDB bazom podataka
 mongoose
-  .connect(db)
+  .connect(process.env.MONGO_URI)
   .then(async () => {
-    console.log(`Baza podataka povezana.`);
-    await createAdminUser(); // Kreiranje admin korisnika.
-    await insertAnimalDataFromCSV(); // Učitavanje podataka o životinjama iz CSV-a.
+    console.log("Baza podataka povezana.");
+    await createAdminUser(); // Kreiranje admin korisnika
+    await insertAnimalDataFromCSV(); // Učitavanje podataka iz CSV-a
 
-    // Kreiranje HTTP servera.
-    const http = require("http").createServer(app);
-    http.listen(process.env.PORT || 5000, () => console.log(`Server sluša na PORTU ${process.env.PORT || 5000}`));
+    // Pokretanje servera nakon uspešne konekcije sa bazom
+    http.listen(process.env.PORT || 5000, () =>
+      console.log(`Server sluša na portu ${process.env.PORT || 5000}`)
+    );
   })
   .catch((err) => console.log("Greška pri povezivanju sa bazom:", err));
 
-// ------------------------
-// REAL-TIME KOMUNIKACIJA SA SOCKET.IO
-// ------------------------
-
-const http = require("http").createServer(app);
-const io = require("socket.io")(http, {
-  cors: {
-    origin: "http://localhost:3000", // Dozvoljeno samo za lokalni frontend.
-  },
-});
-
-// Obrada događaja povezivanja korisnika.
-io.on("connection", (socket) => {
-  console.log("Korisnik je povezan");
-  socket.emit("message", "Dobrodošli u AI chatbot");
-
-  // Osluškujemo poruke korisnika.
-  socket.on("message", async (msg) => {
-    try {
-      const decoded = jwt.verify(msg.token, process.env.JWT_SECRET); // Verifikacija tokena.
-      const userId = decoded.id;
-      const response = await get_response(msg.text); // Dobijanje AI odgovora.
-
-      // Kreiranje nove poruke i čuvanje u bazi.
-      const messageToAppend = { text: msg.text, response };
-      const newMessage = new Message(messageToAppend);
-      await newMessage.save();
-
-      // Ažuriranje korisnikovih poruka u bazi.
-      await User.findByIdAndUpdate(userId, { $push: { messages: newMessage._id } });
-
-      // Slanje odgovora nazad korisniku preko Socket.io.
-      socket.emit("response", newMessage);
-    } catch (error) {
-      console.error("Greška prilikom obrade poruke:", error);
-      socket.emit("response", { text: "Došlo je do greške pri obradi vaše poruke.", response: error.message });
-    }
-  });
-
-  // Obrada događaja odspajanja korisnika.
-  socket.on("disconnect", () => {
-    console.log("Korisnik je napustio konverzaciju");
-  });
-});
-
-// ------------------------
-// DEFINISANJE RUTA ZA API
-// ------------------------
-
-// Ruta za korisnike.
+// Definisanje API ruta
 app.use("/users", require("./routes/userRoutes"));
-
-// Ruta za chat.
 app.use("/chat", require("./routes/chatRoutes"));
-
-// Ruta za poruke.
 app.use("/messages", require("./routes/messageRoutes"));
-
-// Ruta za profile korisnika.
 app.use("/profiles", require("./routes/profileRoutes"));
-
-// Ruta za informacije o životinjama.
-app.use('/animals', require('./routes/animalRoutes'));
+app.use("/animals", require("./routes/animalRoutes"));
