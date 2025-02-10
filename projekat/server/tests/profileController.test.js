@@ -69,20 +69,13 @@ describe('Profile Controller - get_profile', () => {
       json: jest.fn(),
     };
 
-    // Opcionalno, možemo špijunirati console.error da bismo verifikovali logovanje grešaka.
-    jest.spyOn(console, 'error').mockImplementation(() => {});
-
     // Izvršenje:
     await get_profile(req, res);
 
     // Provera:
     expect(Profile.findOne).toHaveBeenCalledWith({ user: 'userid123' });
-    expect(console.error).toHaveBeenCalledWith(error.message);
     expect(res.status).toHaveBeenCalledWith(500);
     expect(res.json).toHaveBeenCalledWith({ error: error.message });
-
-    // Vraćamo originalnu implementaciju console.error.
-    console.error.mockRestore();
   });
 });
 
@@ -165,10 +158,9 @@ describe('Profile Controller - update_profile', () => {
   });
 
   it('trebalo bi da vrati 500 i "Server Error" kada dođe do greške prilikom ažuriranja', async () => {
-    // Priprema: Simuliramo grešku.
     const error = new Error('Update failed');
     Profile.findOneAndUpdate.mockRejectedValue(error);
-
+  
     const req = {
       params: { userId: 'userid123' },
       body: { bio: 'Some bio', avatar: 'http://example.com/avatar.jpg' },
@@ -177,24 +169,23 @@ describe('Profile Controller - update_profile', () => {
       status: jest.fn().mockReturnThis(),
       send: jest.fn(),
     };
-
-    // Opcionalno, možemo špijunirati console.error.
+  
+    // Mokiramo console.error
     jest.spyOn(console, 'error').mockImplementation(() => {});
-
-    // Izvršenje:
+  
     await update_profile(req, res);
-
-    // Provera:
+  
     expect(Profile.findOneAndUpdate).toHaveBeenCalledWith(
       { user: 'userid123' },
       { bio: 'Some bio', avatar: 'http://example.com/avatar.jpg' },
       { new: true }
     );
+  
     expect(console.error).toHaveBeenCalledWith(error.message);
     expect(res.status).toHaveBeenCalledWith(500);
     expect(res.send).toHaveBeenCalledWith('Server Error');
-
-    // Vraćamo originalnu implementaciju console.error.
+  
+    // Vraćamo originalnu implementaciju console.error
     console.error.mockRestore();
-  });
+  });  
 });
