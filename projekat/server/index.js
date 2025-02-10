@@ -166,3 +166,17 @@ app.use("/chat", require("./routes/chatRoutes"));
 app.use("/messages", require("./routes/messageRoutes"));
 app.use("/profiles", require("./routes/profileRoutes"));
 app.use("/animals", require("./routes/animalRoutes"));
+
+
+// Ruta za testiranje zaštite od XSS napada.
+app.post('/test/xss', (req, res) => {
+  // xssClean middleware je već sanitizovao req.body.input.
+  res.json({ sanitized: req.body.input });
+});
+
+
+// Ruta za testiranje zaštite od NoSQL injekcija.
+app.post('/test/nosql', (req, res) => {
+  // express-mongo-sanitize će ukloniti ključne reči koje mogu uzrokovati napad ($, .)
+  res.json({ sanitized: req.body });
+});
