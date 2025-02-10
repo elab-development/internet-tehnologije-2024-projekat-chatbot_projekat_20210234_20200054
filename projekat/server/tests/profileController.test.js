@@ -169,10 +169,15 @@ describe('Profile Controller - update_profile', () => {
       status: jest.fn().mockReturnThis(),
       send: jest.fn(),
     };
+<<<<<<< HEAD
   
     // Mokiramo console.error
     jest.spyOn(console, 'error').mockImplementation(() => {});
   
+=======
+
+    // Izvršenje:
+>>>>>>> d4ce681184a1459b5764ff2ce26552df5a92f33a
     await update_profile(req, res);
   
     expect(Profile.findOneAndUpdate).toHaveBeenCalledWith(
@@ -184,8 +189,12 @@ describe('Profile Controller - update_profile', () => {
     expect(console.error).toHaveBeenCalledWith(error.message);
     expect(res.status).toHaveBeenCalledWith(500);
     expect(res.send).toHaveBeenCalledWith('Server Error');
+<<<<<<< HEAD
   
     // Vraćamo originalnu implementaciju console.error
     console.error.mockRestore();
   });  
+=======
+  });
+>>>>>>> d4ce681184a1459b5764ff2ce26552df5a92f33a
 });
