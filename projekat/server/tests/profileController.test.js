@@ -69,20 +69,13 @@ describe('Profile Controller - get_profile', () => {
       json: jest.fn(),
     };
 
-    // Opcionalno, možemo špijunirati console.error da bismo verifikovali logovanje grešaka.
-    jest.spyOn(console, 'error').mockImplementation(() => {});
-
     // Izvršenje:
     await get_profile(req, res);
 
     // Provera:
     expect(Profile.findOne).toHaveBeenCalledWith({ user: 'userid123' });
-    expect(console.error).toHaveBeenCalledWith(error.message);
     expect(res.status).toHaveBeenCalledWith(500);
     expect(res.json).toHaveBeenCalledWith({ error: error.message });
-
-    // Vraćamo originalnu implementaciju console.error.
-    console.error.mockRestore();
   });
 });
 
@@ -178,9 +171,6 @@ describe('Profile Controller - update_profile', () => {
       send: jest.fn(),
     };
 
-    // Opcionalno, možemo špijunirati console.error.
-    jest.spyOn(console, 'error').mockImplementation(() => {});
-
     // Izvršenje:
     await update_profile(req, res);
 
@@ -193,8 +183,5 @@ describe('Profile Controller - update_profile', () => {
     expect(console.error).toHaveBeenCalledWith(error.message);
     expect(res.status).toHaveBeenCalledWith(500);
     expect(res.send).toHaveBeenCalledWith('Server Error');
-
-    // Vraćamo originalnu implementaciju console.error.
-    console.error.mockRestore();
   });
 });

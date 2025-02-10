@@ -65,9 +65,6 @@ describe('Animal Controller - getAllAnimals', () => {
       json: jest.fn(),
     };
 
-    // Opcionalno, možete špijunirati console.error ako želite da osigurate da greške budu logovane.
-    jest.spyOn(console, 'error').mockImplementation(() => {});
-
     // Izvršenje: Pozivamo kontroler.
     await getAllAnimals(req, res);
 
@@ -75,8 +72,5 @@ describe('Animal Controller - getAllAnimals', () => {
     expect(Animal.find).toHaveBeenCalledTimes(1);
     expect(res.status).toHaveBeenCalledWith(500);
     expect(res.json).toHaveBeenCalledWith({ message: 'Error fetching animal data' });
-
-    // Čišćenje špijuna za console.error.
-    console.error.mockRestore();
   });
 });

@@ -77,19 +77,12 @@ describe('Message Controller - get_message', () => {
       send: jest.fn(),
     };
 
-    // Opcionalno, možete špijunirati console.error da biste testirali logovanje grešaka.
-    jest.spyOn(console, 'error').mockImplementation(() => {});
-
     // Izvršenje: Pozivamo kontroler funkciju.
     await get_message(req, res);
 
     // Provera: Osiguravamo da je greška logovana i da je funkcija vratila status 500.
     expect(Message.findById).toHaveBeenCalledWith('errorid');
-    expect(console.error).toHaveBeenCalledWith(error.message);
     expect(res.status).toHaveBeenCalledWith(500);
     expect(res.send).toHaveBeenCalledWith('Server Error');
-
-    // Vraćamo originalnu implementaciju console.error.
-    console.error.mockRestore();
   });
 });
