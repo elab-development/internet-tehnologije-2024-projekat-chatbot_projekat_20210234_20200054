@@ -7,7 +7,7 @@ import { useAuth } from "../../hooks/useAuth";
 // Uvozimo custom hook za autentifikaciju da bismo dobili korisnikov token.
 import api from "../../api/posts"; 
 // Uvozimo API instance za slanje HTTP zahteva.
-import MessageList from "../MessageList"; 
+import MessageList from "./MessageList"; 
 // Uvozimo komponentu za prikazivanje liste poruka.
 
 let socket; 

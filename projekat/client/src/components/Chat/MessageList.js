@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react"; 
 // Uvoz React biblioteke, zajedno sa `useState` i `useEffect` hook-ovima za upravljanje stanjem i efektima.
 
-import { useAuth } from "../hooks/useAuth"; 
+import { useAuth } from "../../hooks/useAuth"; 
 // Uvoz prilagođenog hook-a za autentifikaciju korisnika.
 
-import api from "../api/posts"; 
+import api from "../../api/posts"; 
 // Uvoz API instance za komunikaciju sa serverom.
 
-import logo from "../assets/images/main.png"; 
+import logo from "../../assets/images/main.png"; 
 // Uvoz slike koja predstavlja avatar bota.
 
 export default function MessageList({ messages }) { 
