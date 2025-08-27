@@ -184,7 +184,7 @@ export default function DashboardGUI() {
                 id="genderFilter"
                 value={genderFilter}
                 onChange={(e) => setGenderFilter(e.target.value)} 
-                // Ažuriramo filter po polu.
+                // Ažuriramo filter po polu
                 className="gender-select"
               >
                 <option value="">All</option>
