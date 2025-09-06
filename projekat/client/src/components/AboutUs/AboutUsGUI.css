@@ -1,0 +1,108 @@
+:root {
+    --body-bg: rgb(0, 125, 104);
+    --header-bg: rgb(0, 125, 104);
+    --section-bg: rgb(0, 125, 104);
+    --border: 2px solid #000;
+    --text-color: #fff;
+    --shadow-color: rgba(0, 0, 0, 0.3);
+    --border-radius: 15px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+  }
+
+
+  
+  .header {
+    font-family: 'Modak';
+    font-size: 80px;
+    font-weight: normal;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+    padding: 20px;
+    border-radius: 15px;
+    background: none;
+    background-color: rgb(0, 125, 104);
+  }
+  
+  .about-us {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 25px 10px;
+    border-radius: 15px;
+    align-items: center;
+    font-family: 'Modak';
+    font-weight: normal;
+    gap: 20px;
+  }
+  
+  .about-us-header {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background: none;
+    background-color: rgb(0, 125, 104);
+    color: var(--text-color);
+    border-radius: 15px ;
+    font-family: 'Modak';
+    font-weight: normal;
+    width: 1000px;
+  }
+  
+  /* Main content styling */
+  .about-us-content {
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    gap: 20px; /* Space between text and quote */
+    padding: 20px;
+    background-color: rgb(0, 125, 104);
+    color: #fff;
+    border-radius: 15px;
+  }
+  
+  .model-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px var(--shadow-color);
+    border-radius: var(--border-radius);
+    background-color: rgb(0, 125, 104);
+    padding: 10px;
+    width: 100%;
+    height: 300px;
+  }
+  
+  .sketchfab-embed-wrapper iframe {
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 8px var(--shadow-color);
+    width: 400px;
+    height: 50px;
+    object-fit: cover;
+  }
+  
+  .text-and-quote {
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    gap: 0px; 
+    padding: 30px;
+  }
+  
+
+  .subheading {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: rgb(129, 182, 76);
+    display: block;
+    margin-top: 10px;
+    font-family: "Knewave", serif;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+  }
+  
+  
+  

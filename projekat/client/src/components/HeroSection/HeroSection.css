@@ -1,0 +1,72 @@
+.carousel-container {
+  width: 1200px; /* Full-width container */
+  margin: 0 auto;
+  padding: 40px 0;
+  position: relative;
+  overflow: hidden; /* Hide overflow from side images */
+  max-width: 1000px; /* Increase the max width for larger images */
+}
+
+.slick-slide {
+  opacity: 0.5; /* Make non-centered images partially visible */
+  z-index: 1; /* Non-centered images are behind the center */
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  position: relative;
+  transform: scale(0.9); /* Slightly reduce size to simulate being 'behind' */
+}
+
+.slick-center {
+  transform: scale(1); /* Center image is larger and fully opaque */
+  z-index: 3; /* Bring the center image to the front */
+  opacity: 1;
+}
+
+.slick-slide img {
+  width: 400px; /* Consistent width for all images */
+  height: 500px; /* Consistent height for all images */
+  object-fit: fill; /* Ensure images fill the container without distortion */
+  display: block;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.slick-track {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Ensure images are horizontally centered */
+}
+
+.slick-list {
+  overflow: hidden; /* Hide overflow from side images */
+  padding: 0 !important;
+}
+
+.slick-prev, .slick-next {
+  z-index: 4; /* Ensure navigation buttons are above images */
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Additional CSS for left image depth effect */
+.slick-slide:not(.slick-center):nth-child(odd) {
+  transform: scale(0.85) translateX(-10%); /* Further shift and scale left images */
+}
+
+.carousel-image {
+  border-radius: 15px; /* Rounded edges */
+  border: 5px solid rgb(0, 125, 104); /* Light gray border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+
+.admin-image-container {
+  display: flex;
+  justify-content: center; /* Center the admin image */
+  margin-top: -15px;
+}
+
+.admin-image {
+  max-width: 600px; /* Set the maximum width for the admin image */
+  height: auto; /* Maintain the aspect ratio */
+  border-radius: 15px;
+}
+
